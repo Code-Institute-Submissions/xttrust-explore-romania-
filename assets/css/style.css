@@ -17,6 +17,8 @@ This will make the website look the same on all browsers */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 /* General styles */
