@@ -40,3 +40,29 @@ h1, h2, h3, h4, h5, h6 {
 .hidden {
     display: none;
 }
+
+/* Header */
+header {
+    background-color: var(--color-dark);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px var(--color-yellow);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
