@@ -94,7 +94,6 @@ header h1 {
     text-transform: uppercase;
     color: var(--color-light);
 }
-
 /* End header */
 
 /* Start menu */
@@ -108,9 +107,10 @@ header h1 {
     color: var(--color-light);
     display: block;
     width: 100%;
-    padding: 1rem;
+    padding: 1.2rem .7rem;
     transition: all .5s;
     text-transform: uppercase;
+    font-size: 1.4rem;
 }
 
 #menu > li a:hover {
@@ -127,7 +127,7 @@ nav {
     color: white;
     width: 100%;
     left: 0;
-    box-shadow: 0 2px 2px var(--color-red);
+    border-bottom: 2px solid var(--color-yellow);
     display: none;
     top: 100%;
 }
@@ -238,6 +238,7 @@ footer p {
         width: fit-content;
         box-shadow: none;
         padding-right: 1rem;
+        border-bottom: none;
     }
 
     #menu {
