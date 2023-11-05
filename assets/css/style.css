@@ -1,10 +1,26 @@
 /* Import font from Google */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
+:root {
+    --color-blue: #3a71c5;
+    --color-yellow: #e9eb0a;
+    --color-red: #e31616;
+    --color-light: #ededed;
+    --color-dark: #333333;
+}
+
 /* Asterisk wildcard selector will override default styles added by the browser 
 This will make the website look the same on all browsers */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* General styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
