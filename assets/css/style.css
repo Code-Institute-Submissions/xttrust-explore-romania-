@@ -82,7 +82,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px var(--color-red);
+    border-bottom: 2px solid var(--color-yellow);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,7 +160,7 @@ main {
 
 /* End main */
 
-/* Hero section */
+/* Start hero section */
 #hero {
     height: 500px;
     width: 100%;
@@ -185,7 +185,34 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+/* End hero section */
 
+/* Start footer */
+footer {
+    background-color: var(--color-dark);
+    border-top: 2px solid var(--color-yellow);
+}
+
+#social-networks {
+    text-align: center;
+    padding: 1.5rem 0;
+    display: flex;
+    margin-left: 1rem;
+    justify-content: start;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150%;
+    color: var(--color-light);
+    padding-right: 2rem;
+    transition: all ease-in .3s;
+}
+
+#social-networks i:hover {
+    color: var(--color-blue);
+}
+/* End footer */
 
 /** Start media query's for responsive design */
 
