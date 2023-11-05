@@ -55,6 +55,11 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-red);
 }
 
+img {
+    width: 100%;
+    line-height: 1em;
+}
+
 .hidden {
     display: none;
 }
@@ -282,6 +287,42 @@ main {
 /* End culture section */
 
 /* Start attractions section */
+#attractions {
+    margin: 1rem;
+}
+
+#attractions-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 3rem;
+}
+
+.attractions-card {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.attractions-card img {
+    border-radius: .5rem;
+}
+
+.attractions-card figcaption {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: var(--color-light);
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    position: relative;
+    padding: 0 1rem;
+    top: -20px;
+}
+
+.attractions-card p {
+    text-align: center;
+}
 /* End attractions section */
 
 /* Start cuisine section */
