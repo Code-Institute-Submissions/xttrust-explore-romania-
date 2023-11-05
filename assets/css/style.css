@@ -253,6 +253,7 @@ main {
 
 .history-content ul li {
     list-style-type: disc;
+    padding: 1rem 0;
 }
 /* End history section */
 
