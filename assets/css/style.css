@@ -94,6 +94,10 @@ header h1 {
     text-transform: uppercase;
     color: var(--color-light);
 }
+
+main h2, main h3 {
+    text-align: center;
+}
 /* End header */
 
 /* Start menu */
