@@ -7,6 +7,8 @@
     --color-red: #e31616;
     --color-light: #ededed;
     --color-dark: #333333;
+    /* By setting the font size here to 62.5 we reset the rem. Now 1rem = 10px */
+    font-size: 62.5%; 
 }
 
 /* Asterisk wildcard selector will override default styles added by the browser 
@@ -23,4 +25,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* Setting the default font size */
+    font-size: 1.6rem;
+    color: var(--color-dark);
+    background-color: var(--color-light);
 }
