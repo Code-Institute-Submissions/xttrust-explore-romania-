@@ -36,7 +36,6 @@ Explore Romania is a website that offers insights into Romania's history, cultur
 * Simple methods of contacting the club.
 * Visually appealing design.
 ### Expectations
-* I expect to know if a form has been submitted properly and if items are not filled in, to be prompted.
 * I expect all links to social media sites to be opened in a new tab.
 * I expect all navigation links to work correctly.
 * I expect screen size not to affect the quality of the website.
