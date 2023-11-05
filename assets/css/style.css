@@ -72,12 +72,6 @@ header h1 {
     color: var(--color-light);
 }
 
-#logo-image {
-    position: relative;
-    padding-left: 1rem;
-    width: 100%;
-    height: 5rem;
-}
 /* End header */
 
 /* Start menu */
