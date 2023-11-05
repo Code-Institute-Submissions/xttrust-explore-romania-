@@ -307,7 +307,7 @@ main {
 }
 
 .attractions-card img {
-    border-radius: .5rem;
+    border-radius: .5rem; 
 }
 
 .attractions-card figcaption {
