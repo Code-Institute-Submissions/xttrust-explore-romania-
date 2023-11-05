@@ -6,8 +6,8 @@
     --color-blue: #3a71c5;
     --color-yellow: #e9eb0a;
     --color-red: #e31616;
-    --color-light: #ededed;
-    --color-dark: #242e4c;
+    --color-light: #dee2e6;
+    --color-dark: #0d1b2a;
     /* By setting the font size here to 62.5 we reset the rem. Now 1rem = 10px */
     font-size: 62.5%; 
 }
@@ -51,6 +51,28 @@ h1, h2, h3, h4, h5, h6 {
 .hidden {
     display: none;
 }
+
+.text-dark {
+    color: var(--color-dark);
+}
+
+.text-light {
+    color: var(--color-light);
+}
+
+.text-blue {
+    color: var(--color-blue);
+}
+
+.text-red {
+    color: var(--color-red);
+}
+
+.text-yellow {
+    color: var(--color-yellow);
+}
+
+
 /* End general styles */
 
 /* Start header */
@@ -68,6 +90,7 @@ header {
 
 header h1 {
     padding: 1rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--color-light);
 }
@@ -124,19 +147,44 @@ nav {
 
 /* End navbar styles with dropdown toggle */
 
-/* Start main content */
+/* Start main */
 main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 6rem;
+    margin-top: 5rem;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
-    background-color: #e9eb0a;
 }
 
-/* End main content */
+/* End main */
+
+/* Hero section */
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url("../images/hero-bg.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    color: var(--color-light);
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
+
 
 /** Start media query's for responsive design */
 
@@ -162,16 +210,8 @@ main {
         padding: 0;
     }
 
-    #menu > li {
-        padding-left: 1rem;
-    }
-
     #menu > li > a {
-        line-height: 3.5rem;
-    }
-
-    #menu > li a:hover {
-        padding: 1rem;
+        line-height: 2.6rem;
     }
 
     .nav-toggle-label {

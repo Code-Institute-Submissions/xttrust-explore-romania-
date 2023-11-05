@@ -7,6 +7,8 @@
     <!-- Meta tags for Search Engines -->
     <meta name="description" content="Dive into Romania's captivating history, vibrant culture, must-visit attractions, and savory cuisine.">
     <meta name="keywords" content="explore Romania, Romania, history, culture, attractions, cusine">
+    <!-- Theme color for address bar -->
+    <meta name="theme-color" content="#0d1b2a">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -20,7 +22,7 @@
     <!-- Start Header -->
     <header>
         <a href="#top">
-          <h1 class="">Explore Romania</h1>
+          <h1 class="">Explore <span class="text-blue">Ro</span><span class="text-yellow">ma</span><span class="text-red">nia</span></h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
@@ -29,12 +31,12 @@
 
         <nav>
           <ul id="menu">
-            <li><a href="#top" class="active">Home</a></li>
-            <li><a href="#history">History</a></li>
-            <li><a href="#culture">Culture</a></li>
-            <li><a href="#attractions">Attractions</a></li>
-            <li><a href="#cuisine">Cuisine</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#top" aria-label="Homepage">Home</a></li>
+            <li><a href="#history" aria-label="History">History</a></li>
+            <li><a href="#culture" aria-label="Culture">Culture</a></li>
+            <li><a href="#attractions" aria-label="Attractions">Attractions</a></li>
+            <li><a href="#cuisine" aria-label="Cuisine">Cuisine</a></li>
+            <li><a href="#contact" aria-label="Contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -45,7 +47,7 @@
         <section id="hero">
             <div id="cover-text">
                 <h2>Explore Romania</h2>
-                <h3>Dive into Romania's captivating history, vibrant culture, must-visit attractions, and savory cuisine.</h3>
+                <p>Dive into Romania's captivating history, vibrant culture, must-visit attractions, and savory cuisine.</p>
             </div>
         </section>
     </main>
