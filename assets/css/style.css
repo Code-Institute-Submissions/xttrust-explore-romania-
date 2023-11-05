@@ -33,6 +33,13 @@ body {
     font-size: 1.6rem;
     color: var(--color-dark);
     background-color: var(--color-light);
+    font-family: "Open Sans", sans-serif;;
+}
+
+p {
+  letter-spacing: 1px;
+  line-height: 2rem;
+  font-style: "Montserrat", sans-serif;
 }
 
 a {
@@ -78,13 +85,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-head h2 {
+    line-height: 3rem;
     text-align: center;
     font-size: 2rem;
 }
 
 .section-head h3 {
+    line-height: 2rem;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    color: var(--color-dark);
 }
 /* End general styles */
 
@@ -201,7 +211,42 @@ main {
 }
 /* End hero section */
 
+/* Start history section */
+.history-content {
+    display: flex;
+    flex-direction: column;
+}
 
+.history-content div {
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.history-content ul {
+    margin-left: 2rem;
+    padding: 1rem 0;
+}
+
+.history-content ul li {
+    list-style-type: disc;
+}
+
+
+/* End history section */
+
+/* Start culture section */
+/* End culture section */
+
+/* Start attractions section */
+/* End attractions section */
+
+/* Start cuisine section */
+/* End cuisine section */
+
+/* Start contact section */
+/* End contact section */
 
 
 /* Start footer */
@@ -247,7 +292,7 @@ footer p {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
+    /* Start Header */
     nav {
         display: block;
         position: relative;
@@ -274,12 +319,26 @@ footer p {
     #cover-text {
         min-height: 15rem;
     }
+    /* End Header */
+
+    /* Start history section */
+    #history {
+        border-bottom: 1px solid white;
+    }
+    .history-content {
+        width: 70%;
+        margin: 0 auto
+    }
+    .history-content div {
+        padding: 2rem;
+        box-shadow: none;
+    }
+    /* End history section */
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
-}
+    
 
 /* Extra Large devices (992px and up) */
 @media screen and (min-width: 1200px) {
