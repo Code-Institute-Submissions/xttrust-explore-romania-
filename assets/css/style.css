@@ -65,6 +65,11 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+#logo-image {
+    padding-left: 1rem;
+    width: 100%;
+}
 /* End header */
 
 /* Start menu */
@@ -126,7 +131,32 @@ nav {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        box-shadow: none;
+        padding-right: 1rem;
+    }
 
+    #menu {
+        display: flex;
+        letter-spacing: 1px;
+        padding: 0;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    #menu > li a:hover {
+        padding: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
