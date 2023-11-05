@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Setting the default font size */
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--color-dark);
     background-color: var(--color-light);
     font-family: "Open Sans", sans-serif;;
@@ -238,10 +238,29 @@ main {
 .history-content ul li {
     list-style-type: disc;
 }
-
 /* End history section */
 
 /* Start culture section */
+#culture-content {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    margin: 1rem;
+}
+
+#culture-content div {
+    padding: 1.5rem;
+    flex-basis: 20rem;
+    flex-grow: 1;
+    border-radius: .5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#culture-content div h3 {
+    color: var(--color-dark);
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
 /* End culture section */
 
 /* Start attractions section */
