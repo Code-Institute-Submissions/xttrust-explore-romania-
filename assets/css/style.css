@@ -1,6 +1,7 @@
 /* Import font from Google */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
+/* Start root - Set the variables */
 :root {
     --color-blue: #3a71c5;
     --color-yellow: #e9eb0a;
@@ -10,6 +11,7 @@
     /* By setting the font size here to 62.5 we reset the rem. Now 1rem = 10px */
     font-size: 62.5%; 
 }
+/* End root */
 
 /* Asterisk wildcard selector will override default styles added by the browser 
 This will make the website look the same on all browsers */
@@ -21,7 +23,7 @@ This will make the website look the same on all browsers */
     text-decoration: none;
 }
 
-/* General styles */
+/* Start general styles */
 
 body {
     min-height: 100vh;
@@ -49,8 +51,9 @@ h1, h2, h3, h4, h5, h6 {
 .hidden {
     display: none;
 }
+/* End general styles */
 
-/* Header */
+/* Start header */
 header {
     background-color: var(--color-dark);
     padding: 0 .6rem;
@@ -62,15 +65,14 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+/* End header */
 
-/* Menu */
+/* Start menu */
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
     list-style-type: none;
 }
-
-
 
 #menu > li > a {
     color: var(--color-light);
@@ -85,7 +87,9 @@ header {
     color: var(--color-light);
 }
 
-/* Navbar styles with dropdown toggle */
+/* End menu */
+
+/* Start navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: var(--color-dark);
@@ -111,7 +115,9 @@ nav {
     font-size: 2rem;
 }
 
-/* Start media query's for responsive design */
+/* End navbar styles with dropdown toggle */
+
+/** Start media query's for responsive design */
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -130,7 +136,7 @@ nav {
 
 /* Extra Large devices (992px and up) */
 @media screen and (min-width: 1200px) {
-    
+
 }
 
 /* End media query's for responsive design */
