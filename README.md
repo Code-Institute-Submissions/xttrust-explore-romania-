@@ -23,7 +23,7 @@ Explore Romania is a website that offers insights into Romania's history, cultur
 * As a user, I want to learn more about Romania's culture.
 * As a user, I want to learn more about Romania's top attractions.
 * As a user, I want to be able to easily contact the website.
-* As a user, I want to be able to make contact with the club via several different methods, i.e. social media.
+* As a user, I want to be able to make contact with the website via several different methods, i.e. social media.
 * As a user, I want to be able to easily navigate through the website.
 ## Site owners Goals
 * Attract more visitors to Romania.
