@@ -77,6 +77,7 @@ header {
     display: block;
     width: 100%;
     padding: 1rem;
+    transition: all .5s;
 }
 
 #menu > li a:hover {
@@ -109,3 +110,27 @@ nav {
     color: var(--color-light);
     font-size: 2rem;
 }
+
+/* Start media query's for responsive design */
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Extra Large devices (992px and up) */
+@media screen and (min-width: 1200px) {
+    
+}
+
+/* End media query's for responsive design */
