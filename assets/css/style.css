@@ -72,7 +72,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-yellow) !important;
 }
 
-
+.section-head {
+    padding: 1rem;
+    box-shadow: 2 2 var(--color-dark);
+}
 /* End general styles */
 
 /* Start header */
