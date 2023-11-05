@@ -13,10 +13,31 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome kit - Javascript dosn't work for me so I use a free CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 </head>
 <body>
+    <!-- Start Header -->
+    <header>
+        <a href="index.html">
+          <h1 id="logo">Explore Romania</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+          <ul id="menu">
+            <li><a href="#top" class="active">Home</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#attractions">Attractions</a></li>
+            <li><a href="#cuisine">Cuisine</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <!-- End Header -->
     
-    <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/0d9f79794a.js" crossorigin="anonymous"></script>
 </body>
 </html>
