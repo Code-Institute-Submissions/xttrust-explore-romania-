@@ -333,10 +333,30 @@ main {
 /* End attractions section */
 
 /* Start cuisine section */
+#cuisine {
+    margin-top: 5rem;
+}
+
+.cuisine-content img {
+    width: 100%;
+    line-height: 1em;
+}
+
+.cuisine-content {
+    line-height: 0;
+}
 
 /* End cuisine section */
 
 /* Start contact section */
+.contact-content {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 /* End contact section */
 
 
@@ -391,7 +411,10 @@ footer p {
     }
 
     /* Cuisine */
-    
+    .cuisine-content {
+        column-count: 2;
+        column-gap: 0;
+    }
 
 }
 
@@ -434,7 +457,9 @@ footer p {
     }
 
     /* Cuisine */
-    
+    .cuisine-content {
+        column-count: 3;
+    }
 
 }
 
@@ -501,6 +526,9 @@ footer p {
     }
 
     /* Cuisine */
+    .cuisine-content {
+        column-count: 4;
+    }
     
 }
 
