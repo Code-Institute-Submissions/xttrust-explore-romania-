@@ -238,9 +238,8 @@ main {
 
 /* Start history section */
 #history {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
     border-radius: .5rem;
+    padding-top: 5rem;
     font-size: 1.4rem;
 }
 
@@ -275,6 +274,9 @@ main {
 /* End history section */
 
 /* Start culture section */
+#culture {
+    padding-top: 5rem;
+}
 
 #culture-content {
     display: flex;
@@ -303,8 +305,7 @@ main {
 
 /* Start attractions section */
 #attractions {
-    margin-top: 5rem;
-    padding: 1rem;
+    padding-top: 5rem;
 }
 
 .attractions-content {
@@ -343,7 +344,7 @@ main {
 
 /* Start cuisine section */
 #cuisine {
-    margin-top: 5rem;
+    padding-top: 5rem;
 }
 
 .cuisine-content img {
