@@ -125,12 +125,11 @@ header h1 {
 
 /* Menu */
 #menu {
-    font-size: 110%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     list-style-type: none;
 }
 
-#menu > li > a {
+.nav-link {
     color: var(--color-light);
     display: block;
     width: 100%;
@@ -138,7 +137,7 @@ header h1 {
     transition: all .5s;
 }
 
-#menu > li a:hover {
+.nav-link:hover {
     background-color: var(--color-blue);
     color: var(--color-light);
 }
