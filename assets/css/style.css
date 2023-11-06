@@ -121,6 +121,9 @@ header {
     z-index: 99;
     width: 100%;
     border-bottom: 1px solid var(--color-yellow);
+}
+
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -336,7 +339,7 @@ main {
 /* Start footer */
 footer {
     background-color: var(--color-dark);
-    border-top: 2px solid var(--color-yellow);
+    border-top: 1px solid var(--color-yellow);
 }
 
 footer p {
@@ -436,7 +439,7 @@ footer p {
 
 /* Extra Large devices (992px and up) */
 @media screen and (min-width: 1200px) {
-    main {
+    .container {
         width: 120rem;
         margin: 0 auto;
     }
