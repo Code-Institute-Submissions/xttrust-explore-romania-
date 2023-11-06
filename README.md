@@ -1,9 +1,8 @@
-![LOGO](wireframes/logo.jpg)
-
+![LOGO](https://placehold.co/200x70?text=Explore+Romania)
 # Explore Romania
 
 # Goal for this Project
-Welcome to Explore Romania. Dive into Romania's captivating history, vibrant culture, must-visit attractions, and savory cuisine.
+Learn more about Romania, dive into Romania's captivating history, vibrant culture, must-visit attractions, and savory cuisine.
 
 Explore Romania is a website that offers insights into Romania's history, culture, rich cuisine, and top attractions. This project is tailored for tourists and anyone interested in learning more about Romania.
 
