@@ -61,8 +61,9 @@ I will explain the uses of the various colors below, starting from top to bottom
 
 
  
- * #242e4c - This colors will be used as a body background colors and for navbar text color.
- * #333333 - This colors will be used as a background colors for navbar and footer section
- * #e31616 - This colors will be used on the headings and hover over links also for styling the "Romania" word
+ * #3a71c5 - This color will be used for links and hover effects.
  * #e9eb0a - This colors will be used for borders and for styling the "Romania" word
- * #3a71c5 - This colors will be used for links and for styling the "Romania" word
+ * #e31616 - This colors will be used for headings
+ * #dee2e6 - This colors will be used for shadows, nav links, footer links, and text
+ * #ffffff - This colors will be used for sections backgrounds
+ * #0d1b2a - This colors will be used for background
