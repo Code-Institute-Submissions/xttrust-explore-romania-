@@ -275,6 +275,7 @@ main {
     margin: 1rem;
 }
 
+
 #culture-content div {
     padding: 1.5rem;
     flex-basis: 20rem;
@@ -444,7 +445,7 @@ footer p {
         margin: 0 auto;
     }
 
-    /* Start history section */
+    /* History */
     #history {
         margin-top: 5rem;
         font-size: 1.6rem;
@@ -461,8 +462,11 @@ footer p {
         padding: 2rem;
         box-shadow: none;
     }
-    /* End history section */
 
+    /* Culture */
+    #culture-content {
+        margin: 0;
+    }
 
     /* Attractions */
     .attractions-card {
