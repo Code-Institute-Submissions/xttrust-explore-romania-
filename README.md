@@ -47,17 +47,18 @@ Explore Romania is a website that offers insights into Romania's history, cultur
 ### Fonts
 In order to move away from the basic fonts available, I have used 
 [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website. For the main text I have chosen [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mon "Montserrat font") as I feel it is has a sharp, simple and easy to read look.
+In order for headings to stand I have used ("Open Sans", sans-serif).
 
 ### Icons
 As for icons I decided to use for my website [Font Awesome library](https://fontawesome.com/ "Font Awesome").
 
 ### Colors
-As for colors I decided to use the same colors as the Romanian National flag. I have picked [Colorcombos](https://www.colorcombos.com "colorcombos") to generate my own set of colors.
+As for colors I decided to use the same colors as the Romanian National flag. I have picked [Colorcombos](https://www.colorcombos.com/combomaker.html?design=cupcakes&output_width=100&size_option=element&colors=3A71C5,E9EB0A,E31616,DEE2E6,#FFFFFF,0D1B2A&background_color=FFFFFF&show_hex_flag=Y "colorcombos") to generate my own set of colors.
 
 I will explain the uses of the various colors below, starting from top to bottom.
 
 
-![Colors Pallet](https://placehold.co/600x100?text=Color+Palete)
+![Colors Pallet](wireframes/colors.jpg)
 
 
  
