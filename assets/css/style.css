@@ -243,6 +243,7 @@ main {
     row-gap: 3rem;
     margin: 1rem;
     border-radius: .5rem;
+    background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
@@ -280,7 +281,7 @@ main {
     padding: 1.5rem;
     flex-basis: 20rem;
     flex-grow: 1;
-    border-radius: .5rem;
+    background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 #culture-content div h3 {
@@ -308,6 +309,7 @@ main {
     padding: 1rem;
     margin-bottom: 2rem;
     border-radius: .5rem;
+    background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
@@ -331,6 +333,7 @@ main {
 /* End attractions section */
 
 /* Start cuisine section */
+
 /* End cuisine section */
 
 /* Start contact section */
@@ -387,6 +390,9 @@ footer p {
         flex: 2 0 42%;
     }
 
+    /* Cuisine */
+    
+
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -427,6 +433,9 @@ footer p {
         flex: 1 0 42%;
     }
 
+    /* Cuisine */
+    
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -443,6 +452,9 @@ footer p {
     .attractions-card {
         flex: 1 0 calc(33.333% - 2rem); /* 3 cards in a row with 2rem spacing between them */
     }
+
+    /* Cuisine */
+    
 }
     
 
@@ -471,7 +483,6 @@ footer p {
         flex-direction: row;
         width: 120rem;
         margin: 0 auto;
-        border-radius: .5rem;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     }
     .history-content div {
@@ -488,6 +499,9 @@ footer p {
     .attractions-card {
         flex: 1 0 21%;
     }
+
+    /* Cuisine */
+    
 }
 
 /* End media query's for responsive design */
