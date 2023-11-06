@@ -412,16 +412,13 @@ footer p {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #culture-content {
-        flex-direction: row;
-    }
     /* Attractions */
     .attractions-content {
         flex-direction: row;
     }
 
     .attractions-card {
-        flex: 2 0 42%;
+        flex: 2 0 calc(50% - 2rem);
     }
 
     /* Cuisine */
@@ -429,8 +426,8 @@ footer p {
         column-count: 2;
         column-gap: 0;
     }
-
 }
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -492,6 +489,17 @@ footer p {
         left: 0;
         right: 0;
         margin: 0 auto;
+    }
+
+    /* Culture */
+    #culture-content {
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+
+    #culture-content div {
+        flex-basis: calc(50% - 2rem); /* Calculate the flex-basis for 2 columns with a 2rem gap. */
+        flex-grow: 1;
     }
 
     /* Attractions */
