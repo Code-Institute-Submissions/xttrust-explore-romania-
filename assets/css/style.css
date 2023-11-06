@@ -37,9 +37,9 @@ body {
 }
 
 p {
-  letter-spacing: 1px;
   line-height: 2rem;
-  font-style: "Montserrat", sans-serif;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
 }
 
 a {
@@ -96,7 +96,6 @@ img {
 
 .section-head {
     padding: 1rem;
-    box-shadow: 2 2 var(--color-dark);
 }
 
 .section-head h2 {
@@ -262,6 +261,8 @@ main {
 .history-content ul li {
     list-style-type: disc;
     padding: 1rem 0;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
 }
 /* End history section */
 
