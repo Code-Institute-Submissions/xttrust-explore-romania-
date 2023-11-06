@@ -208,7 +208,7 @@ main {
     padding-top: 5rem;
 }
 
-#history .container {
+.history-container {
     background-color: var(--color-white);
 }
 
@@ -331,7 +331,8 @@ main {
     padding: 2rem;
     background-color: var(--color-white);
     min-height: 30rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 4rem;
 }
 
 
@@ -472,6 +473,13 @@ footer p {
     /* Cuisine */
     .cuisine-content {
         column-count: 3;
+    }
+
+    /* Contact */
+    .contact-content {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 4rem;
     }
 
 }
