@@ -1,4 +1,4 @@
-![LOGO](https://placehold.co/200x70?text=Explore+Romania)
+![LOGO](wireframes/logo.jpg)
 # Explore Romania
 
 # Goal for this Project
@@ -8,7 +8,7 @@ Explore Romania is a website that offers insights into Romania's history, cultur
 
 
 
-![Responsive Displays](https://placehold.co/600x400?text=Responsive+Displays)
+![Responsive Displays](wireframes/multiview.jpg)
 
 # UX
 
