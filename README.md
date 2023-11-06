@@ -68,3 +68,21 @@ I will explain the uses of the various colors below, starting from top to bottom
  * #dee2e6 - This colors will be used for shadows, nav links, footer links, and text
  * #ffffff - This colors will be used for sections backgrounds
  * #0d1b2a - This colors will be used for background
+
+
+### Structure
+I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
+
+| Screen Size | Breakpoint |
+| ----------- | ---------- |
+| x-small     | <576px     |
+| small       | => 576px   |
+| medium      | => 768px   |
+| large       | => 992px   |
+| x-large     | => 1200px  |
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
