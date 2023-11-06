@@ -220,7 +220,7 @@ main {
     width: 100%;
     min-height: 20rem;
     padding-top: 4rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
     color: var(--color-light);
 }
 
@@ -431,6 +431,14 @@ footer p {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    /* Hero */
+    #cover-text {
+        width: 80%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
     /* Attractions */
     .attractions-card {
         flex: 1 0 calc(33.333% - 2rem); /* 3 cards in a row with 2rem spacing between them */
@@ -442,6 +450,14 @@ footer p {
 @media screen and (min-width: 1200px) {
     .container {
         width: 120rem;
+        margin: 0 auto;
+    }
+
+     /* Hero */
+     #cover-text {
+        width: 120rem;
+        left: 0;
+        right: 0;
         margin: 0 auto;
     }
 
