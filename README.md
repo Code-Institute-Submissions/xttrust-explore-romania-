@@ -22,7 +22,7 @@ Explore Romania is a website that offers insights into Romania's history, cultur
      * [Design Choices](#design-choices)
         * [Fonts](#fonts)
         * [Icons](#icons)
-        * [Colours](#colours)
+        * [Colors](#colors)
         * [Structure](#structure)
     * [Wireframes](#wireframes)
     * [Features](#features)
@@ -133,4 +133,4 @@ The wireframes are below:
 
 ### [Desktop Wireframe](wireframes/layout-desktop.png "Desktop wireframe")
 ### [Tablet Wireframe](wireframes/layout-tablet.png "Tablet wireframe")
-### [Phone Wireframe](wireframes/layout-phone.png "Phone wireframe")
+### [Phone Wireframe](wireframes/layout-mobile.png "Phone wireframe")
