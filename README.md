@@ -213,7 +213,6 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     ![Landing Page](wireframes/history-section-desktop.png)
     \
     &nbsp;
-    - Mobile view
 
     - Tablet view
 
