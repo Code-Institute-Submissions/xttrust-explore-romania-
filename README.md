@@ -35,7 +35,7 @@ Explore Romania is a website that offers insights into Romania's history, cultur
             * [History Section](#history-section)
             * [Culture Section](#culture-section)
             * [Attraction Section](#attraction-section)
-            * [Culinary Section](#culinary-section)
+            * [Cuisine Section](#cuisine-section)
             * [Contact Section](#contact-section)
             * [Footer](#footer)
         * [Features to be implemented](#features-to-be-implemented)
@@ -251,6 +251,33 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     - Mobile view
 
     ![Landing Page](wireframes/culture-section-mobile.png)
+    \
+    &nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Attractions Section
++ Attractions Section
+    - In the attractions section, users will be presented with a collection of images showcasing some of Romania's most popular tourist destinations.
+    \
+    &nbsp;
+    - Desktop view
+
+    ![Landing Page](wireframes/attractions-section-desktop.png)
+    \
+    &nbsp;
+    - Tablet view
+
+    ![Landing Page](wireframes/attractions-section-tablet.png)
+    \
+    &nbsp;
+    - Mobile view
+
+    ![Landing Page](wireframes/attractions-section-mobile.png)
     \
     &nbsp;
 
