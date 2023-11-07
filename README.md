@@ -31,7 +31,7 @@ Explore Romania is a website that offers insights into Romania's history, cultur
     * [Features](#features)
         * [Existing Features](#existing-features)
             * [Navigation Bar](#navigation-bar)
-            * [Landing Page](#landing-page)
+            * [Welcome Page](#welcome-page)
             * [About Section](#about-section)
             * [Events Section](#events-section)
             * [Contact Section](#contact-section)
@@ -215,6 +215,13 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     &nbsp;
     - Mobile view
 
+    - Tablet view
+
+    ![Landing Page](wireframes/history-section-tablet.png)
+    \
+    &nbsp;
+    - Mobile view
+
     ![Landing Page](wireframes/history-section-mobile.png)
     \
     &nbsp;
@@ -241,7 +248,7 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     \
     &nbsp;
     - Mobile view
-    
+
     ![Landing Page](wireframes/culture-section-mobile.png)
     \
     &nbsp;
