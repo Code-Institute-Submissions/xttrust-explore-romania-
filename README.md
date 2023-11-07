@@ -74,6 +74,11 @@ Explore Romania is a website that offers insights into Romania's history, cultur
 * I expect screen size not to affect the quality of the website.
 * I expect all information to be correct and accurate.
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ## Design Choices
 
@@ -119,3 +124,13 @@ I will be building my website with a mobile first mindset using the iPhone 5/SE 
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Wireframes
+As for wireframes I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") for my website. I chose to use wireframes to visually plan and structure my website's layout and design, ensuring a user-friendly experience and consistent aesthetics across different device screens.
+
+The wireframes are below:
+
+
+### [Desktop Wireframe](wireframes/layout-desktop.png "Desktop wireframe")
+### [Tablet Wireframe](wireframes/layout-tablet.png "Tablet wireframe")
+### [Phone Wireframe](wireframes/layout-phone.png "Phone wireframe")
