@@ -4,6 +4,9 @@
 # Goal for this Project
 Welcome to Explore Romania. Dive into Romania's captivating history, vibrant culture, must-visit attractions, and savory cuisine.
 
+[Live Preview Of Explore Romania](https://xttrust.github.io/explore-romania/ "Live Preview")
+
+
 Explore Romania is a website that offers insights into Romania's history, culture, rich cuisine, and top attractions. This project is tailored for tourists and anyone interested in learning more about Romania.
 
 
