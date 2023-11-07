@@ -380,3 +380,10 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+
+# Technologies used
+
+## Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
