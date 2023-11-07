@@ -48,6 +48,8 @@ Explore Romania is a website that offers insights into Romania's history, cultur
 
 # UX
 
+## User Requirements and Expectations
+
 ## User Goals
 * Visually appealing, including images.
 * Easily navigated around.
@@ -212,6 +214,30 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     &nbsp;
     - Mobile view
     ![Landing Page](wireframes/history-section-mobile.png)
+    \
+    &nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Culture Section
++ Culture Section
+    - In the culture section, users will learn more about the language, folklore, religion and architecture of Romania
+    \
+    &nbsp;
+    - Desktop view
+    ![Landing Page](wireframes/culture-section-desktop.png)
+    \
+    &nbsp;
+    - Tablet view
+    ![Landing Page](wireframes/culture-section-tablet.png)
+    \
+    &nbsp;
+    - Mobile view
+    ![Landing Page](wireframes/culture-section-mobile.png)
     \
     &nbsp;
 
