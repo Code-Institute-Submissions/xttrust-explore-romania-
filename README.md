@@ -214,7 +214,7 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     \
     &nbsp;
     - Mobile view
-    
+
     ![Landing Page](wireframes/history-section-mobile.png)
     \
     &nbsp;
@@ -231,14 +231,17 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     \
     &nbsp;
     - Desktop view
+
     ![Landing Page](wireframes/culture-section-desktop.png)
     \
     &nbsp;
     - Tablet view
+
     ![Landing Page](wireframes/culture-section-tablet.png)
     \
     &nbsp;
     - Mobile view
+    
     ![Landing Page](wireframes/culture-section-mobile.png)
     \
     &nbsp;
