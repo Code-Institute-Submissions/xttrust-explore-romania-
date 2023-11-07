@@ -438,7 +438,7 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 \
 &nbsp;
 [Back to Top](#table-of-contents)
-\
+
 
 
 # Deployment
@@ -466,9 +466,14 @@ For readme, help and advice,
 \
 &nbsp;
 
+For navigation and footer: 
+* [Love Running Project](codeinstitute.net "Love Running Project")
+
 For images and content inspiration: 
 * [Chefspencil](https://www.chefspencil.com/top-10-romanian-foods/ "chefspencil.com")
 * [Tripadvisor](https://tripadvisor.com/ "tripadvisor.com")
+
+For Screen Size Breakpoint:
 * [Bootstrap](https://getbootstrap.com/ "Bootstrap")
 
 Images credits
