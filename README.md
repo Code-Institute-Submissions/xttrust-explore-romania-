@@ -150,18 +150,16 @@ The wireframes are below:
 
 ### Navigation Bar
 
-The navigation bar is fully responsive. Since the navbar is static it provides the to user a way to navigate the website very easy, making it a user-friendly
+The navigation bar is fully responsive. Since the navbar is static it provides to user a way to navigate the website very easy, making it a user-friendly
 
 + Desktop (>=992px)
 \
 &nbsp;
     ![Navigation bar](wireframes/navbar-992.png)
-    -   Spanning the full width of the device and with all links (Home, About, Events, Contact) to navigate visible, this gives ease and clear use to the end user.
 
     -   To distinguish between active, clicked and hovered links, a blue hover effect is applied to the links, providing a visual indication when users interact with them.
 
     ![Navigation bar on hover](wireframes/navbar-hover-992.png)
-    \
 
 
 + Small devices (<576px)
