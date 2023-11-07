@@ -212,18 +212,18 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     &nbsp;
     - Desktop view
 
-    ![Landing Page](wireframes/history-section-desktop.png)
+    ![History Section](wireframes/history-section-desktop.png)
     \
     &nbsp;
 
     - Tablet view
 
-    ![Landing Page](wireframes/history-section-tablet.png)
+    ![History Section](wireframes/history-section-tablet.png)
     \
     &nbsp;
     - Mobile view
 
-    ![Landing Page](wireframes/history-section-mobile.png)
+    ![History Section](wireframes/history-section-mobile.png)
     \
     &nbsp;
 
@@ -240,17 +240,17 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     &nbsp;
     - Desktop view
 
-    ![Landing Page](wireframes/culture-section-desktop.png)
+    ![Culture Section](wireframes/culture-section-desktop.png)
     \
     &nbsp;
     - Tablet view
 
-    ![Landing Page](wireframes/culture-section-tablet.png)
+    ![Culture Section](wireframes/culture-section-tablet.png)
     \
     &nbsp;
     - Mobile view
 
-    ![Landing Page](wireframes/culture-section-mobile.png)
+    ![Culture Section](wireframes/culture-section-mobile.png)
     \
     &nbsp;
 
@@ -267,17 +267,17 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     &nbsp;
     - Desktop view
 
-    ![Landing Page](wireframes/attractions-section-desktop.png)
+    ![Attractions Section](wireframes/attractions-section-desktop.png)
     \
     &nbsp;
     - Tablet view
 
-    ![Landing Page](wireframes/attractions-section-tablet.png)
+    ![Attractions Section](wireframes/attractions-section-tablet.png)
     \
     &nbsp;
     - Mobile view
 
-    ![Landing Page](wireframes/attractions-section-mobile.png)
+    ![Attractions Section](wireframes/attractions-section-mobile.png)
     \
     &nbsp;
 
@@ -294,17 +294,71 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     &nbsp;
     - Desktop view
 
-    ![Landing Page](wireframes/cuisine-section-desktop.png)
+    ![Cuisine Section](wireframes/cuisine-section-desktop.png)
     \
     &nbsp;
     - Tablet view
 
-    ![Landing Page](wireframes/cuisine-section-tablet.png)
+    ![Cuisine Section](wireframes/cuisine-section-tablet.png)
     \
     &nbsp;
     - Mobile view
 
-    ![Landing Page](wireframes/cuisine-section-mobile.png)
+    ![Cuisine Section](wireframes/cuisine-section-mobile.png)
+    \
+    &nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Contact Section
++ Cuisine Section
+    - In the contact section, users will be presented with a form where they can contact Explore Romania.
+    \
+    &nbsp;
+    - Desktop view
+
+    ![Contact Section](wireframes/contact-section-desktop.png)
+    \
+    &nbsp;
+    - Tablet view
+
+    ![Contact Section](wireframes/contact-section-tablet.png)
+    \
+    &nbsp;
+    - Mobile view
+
+    ![Contact Section](wireframes/contact-section-mobile.png)
+    \
+    &nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Footer Section
++ Footer Section
+    - In the contact section, users will be presented with a form where they can contact Explore Romania.
+    \
+    &nbsp;
+    - Desktop view
+
+    ![Footer Section](wireframes/footer-section-desktop.png)
+    \
+    &nbsp;
+    - Tablet view
+
+    ![Footer Section](wireframes/footer-section-tablet.png)
+    \
+    &nbsp;
+    - Mobile view
+
+    ![Footer Section](wireframes/footer-section-mobile.png)
     \
     &nbsp;
 
