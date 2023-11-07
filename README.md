@@ -182,3 +182,41 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+
+### Landing Section
++ Welcome Section
+    - In the welcome section, I've used a picture of "Oradea," a city in Romania, as the cover image.
+    - This image offers users a sneak peek of some places in Romania.
+    - The hero text consists of the website's name, "Explore Romania," followed by a brief description about the website.
+    \
+    &nbsp;
+
+    ![Landing Page](wireframes/hero-big.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### History Section
++ History Section
+    - In the history section, users will discover valuable insights into the rich and diverse history of Romania
+    - The section provides a concise overview of Romania's historical timeline
+    \
+    &nbsp;
+    - Desktop view
+    ![Landing Page](wireframes/history-section-desktop.png)
+    \
+    &nbsp;
+    - Mobile view
+    ![Landing Page](wireframes/history-section-mobile.png)
+    \
+    &nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
