@@ -409,3 +409,18 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+
+# Testing
+
+The website has met the objectives set by all parties involved. 
+It's responsive on various screen sizes, ensuring clean and crisp images without excessive empty space. 
+Users can easily navigate and contact us through the contact form or social media. 
+The content is concise, and the design is uncluttered, providing a user-friendly experience.
+\
+&nbsp;
+
+    - While testing I didn't encounter any errors with the final project.
+
+    - HTML (index.html) validator [results](wireframes/html-validate.jpg "W3C HTML")
+    - CSS validator [results](wireframes/css-validate.jpg "W3C CSS")
