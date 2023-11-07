@@ -341,24 +341,24 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 \
 &nbsp;
 
-### Footer Section
-+ Footer Section
+### Footer
++ Footer
     - In the contact section, users will be presented with a form where they can contact Explore Romania.
     \
     &nbsp;
     - Desktop view
 
-    ![Footer Section](wireframes/footer-section-desktop.png)
+    ![Footer](wireframes/footer-section-desktop.png)
     \
     &nbsp;
     - Tablet view
 
-    ![Footer Section](wireframes/footer-section-tablet.png)
+    ![Footer](wireframes/footer-section-tablet.png)
     \
     &nbsp;
     - Mobile view
 
-    ![Footer Section](wireframes/footer-section-mobile.png)
+    ![Footer](wireframes/footer-section-mobile.png)
     \
     &nbsp;
 
