@@ -286,3 +286,30 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+### Cuisine Section
++ Cuisine Section
+    - In the cuisine section, users will be presented with a collection of images showcasing some of Romania's most popular dishes.
+    \
+    &nbsp;
+    - Desktop view
+
+    ![Landing Page](wireframes/cuisine-section-desktop.png)
+    \
+    &nbsp;
+    - Tablet view
+
+    ![Landing Page](wireframes/cuisine-section-tablet.png)
+    \
+    &nbsp;
+    - Mobile view
+
+    ![Landing Page](wireframes/cuisine-section-mobile.png)
+    \
+    &nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
