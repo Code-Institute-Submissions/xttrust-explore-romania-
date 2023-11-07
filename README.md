@@ -186,7 +186,7 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 &nbsp;
 
 
-### Landing Section
+### Welcome Section
 + Welcome Section
     - In the welcome section, I've used a picture of "Oradea," a city in Romania, as the cover image.
     - This image offers users a sneak peek of some places in Romania.
@@ -209,10 +209,12 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
     \
     &nbsp;
     - Desktop view
+
     ![Landing Page](wireframes/history-section-desktop.png)
     \
     &nbsp;
     - Mobile view
+    
     ![Landing Page](wireframes/history-section-mobile.png)
     \
     &nbsp;
