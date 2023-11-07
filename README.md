@@ -137,3 +137,50 @@ The wireframes are below:
 ### [Desktop Wireframe](wireframes/layout-desktop.png "Desktop wireframe")
 ### [Tablet Wireframe](wireframes/layout-tablet.png "Tablet wireframe")
 ### [Phone Wireframe](wireframes/layout-mobile.png "Phone wireframe")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Features
+
+## Existing Features
+
+### Navigation Bar
+
+The navigation bar is fully responsive. Since the navbar is static it provides the to user a way to navigate the website very easy, making it a user-friendly
+
++ Desktop (>=992px)
+\
+&nbsp;
+    ![Navigation bar](wireframes/navbar-992.png)
+    -   Spanning the full width of the device and with all links (Home, About, Events, Contact) to navigate visible, this gives ease and clear use to the end user.
+
+    -   To distinguish between active, clicked and hovered links, a blue hover effect is applied to the links, providing a visual indication when users interact with them.
+
+    ![Navigation bar on hover](wireframes/navbar-hover-992.png)
+    \
+
+
++ Small devices (<576px)
+\
+&nbsp;
+    - The navbar becomes a hamburger-style menu when the width is <=576, maintaining full responsiveness
+
+     \
+    &nbsp;
+![Nav bar on small devices](wireframes/navbar-mobile-close.png)
+
+    - When pressed, it opens the main menu with all available links.
+
+    \
+    &nbsp;
+![Nav bar on small devices expanded](wireframes/navbar-mobile-hover.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
