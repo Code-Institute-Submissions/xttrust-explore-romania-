@@ -439,3 +439,51 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 &nbsp;
 [Back to Top](#table-of-contents)
 \
+
+
+# Deployment
+After writing the code, committing, and pushing it to GitHub, the project was deployed using GitHub by following these steps:
+\
+&nbsp;
++ Go to the repository on GitHub and click on 'Settings'.
++ In the side navigation, select 'Pages'.
++ In the 'None' dropdown, choose 'master'.
++ Click the 'Save' button.
++ The website is now live at https://xttrust.github.io/explore-romania/.
++ If any changes are needed, you can make them, commit, and push to GitHub, and the updates will be reflected on the website.
+
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Credits
+
+For readme, help and advice,
+* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+\
+&nbsp;
+
+For images and content inspiration: 
+* [Chefspencil](https://www.chefspencil.com/top-10-romanian-foods/ "chefspencil.com")
+* [Tripadvisor](https://tripadvisor.com/ "tripadvisor.com")
+* [Bootstrap](https://getbootstrap.com/ "Bootstrap")
+
+Images credits
+* [Fabrice Florin](https://www.flickr.com/photos/fabola/ "Fabrice Florin")
+* [Savori Urbane](savoriurbane.com "Savori Urbane")
+* [Restaurant Sergiana](https://www.instagram.com/restaurantsergiana/ "restaurant sergiana")
+* [Unica](https://retete.unica.ro/recipes/jumari-cu-bere/ "unica.ro")
+* [Nitu Iulian](https://www.flickr.com/photos/26291296@N02/ "Nitu Iulian")
+* [Laura Laurentiu](https://www.lauralaurentiu.ro/retete-culinare/aperitive/salata-de-boeuf-reteta-pas-cu-pas.html "lauralaurentiu.ro")
+
+
+
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
