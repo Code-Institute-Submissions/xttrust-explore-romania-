@@ -420,3 +420,22 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 + While testing I didn't encounter any errors with the final project.
 + HTML (index.html) validator [results](wireframes/html-validate.jpg "W3C HTML")
 + CSS validator [results](wireframes/css-validate.jpg "W3C CSS")
+
+\
+&nbsp;
+
+ + When testing on Google Chrome mobile version I didn't like the default browser theme color so I've customized the browser's theme color to match the website's theme, ensuring that everything looks just the way I prefer it.
+
+ ```
+
+ <meta name="theme-color" content="#121A18">
+ ```
+ 
+ ## Unfixed Bugs
+
++ There are no bugs to fix in the final project
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
