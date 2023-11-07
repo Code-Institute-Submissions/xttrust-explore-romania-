@@ -387,3 +387,7 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 ## Languages
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+
+## Libraries & Frameworks
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
