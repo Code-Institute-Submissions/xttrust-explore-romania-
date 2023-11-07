@@ -391,3 +391,21 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 ## Libraries & Frameworks
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+
+
+## Tools
+* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [Colorcombos](https://www.colorcombos.com "colorcombos")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [CSS Scan](https://getcssscan.com/css-box-shadow-examples "getcssscan.com")
+* [Squoosh](https://squoosh.app/ "squoosh.app")
+* [Bootstrap](https://getbootstrap.com/ "bootstrap")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
