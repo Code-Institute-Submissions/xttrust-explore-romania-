@@ -322,7 +322,6 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 
 ## Features to be Implemented
 
-+ Contact form to send message to Explore Romania using a back end service then redirect to a thank you page.
 + Cuisine section, the images should have the name of the food as watermark.
 + History section, a link to Wikipedia to learn more about Romania and a documentary video about Romania.
 
