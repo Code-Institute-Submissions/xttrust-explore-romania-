@@ -27,25 +27,24 @@ Explore Romania is a website that offers insights into Romania's history, cultur
         * [Icons](#icons)
         * [Colors](#colors)
         * [Structure](#structure)
-    * [Wireframes](#wireframes)
+* [Wireframes](#wireframes)
     * [Features](#features)
-        * [Existing Features](#existing-features)
-            * [Navigation Bar](#navigation-bar)
-            * [Welcome Section](#welcome-section)
-            * [History Section](#history-section)
-            * [Culture Section](#culture-section)
-            * [Attraction Section](#attraction-section)
-            * [Cuisine Section](#cuisine-section)
-            * [Contact Section](#contact-section)
-            * [Footer](#footer)
+        * [Navigation Bar](#navigation-bar)
+        * [Welcome Section](#welcome-section)
+        * [History Section](#history-section)
+        * [Culture Section](#culture-section)
+        * [Attraction Section](#attraction-section)
+        * [Cuisine Section](#cuisine-section)
+        * [Contact Section](#contact-section)
+        * [Footer](#footer)
         * [Features to be implemented](#features-to-be-implemented)
-    * [Technologies used](#technologies-used)
-        * [Languages](#languages)
-        * [Tools](#tools)
-    * [Testing](#testing)
-        * [Unfixed Bugs](#unfixed-bugs)
-    * [Deployment](#deployment)
-    * [Credits](#credits)
+* [Technologies used](#technologies-used)
+    * [Languages](#languages)
+    * [Tools](#tools)
+* [Testing](#testing)
+    * [Unfixed Bugs](#unfixed-bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 
 # UX
@@ -115,7 +114,7 @@ I will explain the uses of the various colors below, starting from top to bottom
 
 
 ### Structure
-I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
+My website development will follow a mobile-first strategy, focusing on creating a visually appealing design for smaller screens. Specifically, I'll begin styling for the iPhone 5, which has a width of 320px. To ensure responsiveness, I'll rely on the predefined screen size breakpoints provided by [Bootstrap](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
 
 | Screen Size | Breakpoint |
 | ----------- | ---------- |
@@ -132,7 +131,7 @@ I will be building my website with a mobile first mindset using the iPhone 5/SE 
 &nbsp;
 
 # Wireframes
-As for wireframes I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") for my website. I chose to use wireframes to visually plan and structure my website's layout and design, ensuring a user-friendly experience and consistent aesthetics across different device screens.
+I opted for [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") for wireframing to visually structure and plan the layout and design of my website, aiming to provide a user-friendly experience and maintain design consistency across different devices.
 
 The wireframes are below:
 
@@ -149,8 +148,6 @@ The wireframes are below:
 
 # Features
 
-## Existing Features
-
 ### Navigation Bar
 
 The navigation bar is fully responsive. Since the navbar is fixed to the top it provides to user a way to navigate the website very easy, making it a user-friendly
@@ -160,31 +157,26 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 &nbsp;
     ![Navigation bar](wireframes/navbar-992.png)
 
-    -   To distinguish between active, clicked and hovered links, a blue hover effect is applied to the links, providing a visual indication when users interact with them.
+    -   A blue hover effect is used to visually highlight active, clicked, and hovered links, making it clear to users when they are interacting with these elements.
 
     ![Navigation bar on hover](wireframes/navbar-hover-992.png)
 
 
 + Small devices (<576px)
-\
-&nbsp;
-    - The navbar becomes a hamburger-style menu when the width is <=576, maintaining full responsiveness
 
-     \
-    &nbsp;
+    - When the screen width is less than or equal to 576 pixels, the navigation bar adopts a hamburger-style menu, maintaining responsiveness across all devices.
+
+     
 ![Nav bar on small devices](wireframes/navbar-mobile-close.png)
 
     - When pressed, it opens the main menu with all available links.
 
-    \
-    &nbsp;
+    
 ![Nav bar on small devices expanded](wireframes/navbar-mobile-hover.png)
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
+
 
 
 ### Welcome Section
@@ -192,180 +184,141 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
     - In the welcome section, I've used a picture of "Oradea," a city in Romania, as the cover image.
     - This image offers users a sneak peek of some places in Romania.
     - The hero text consists of the website's name, "Explore Romania," followed by a brief description about the website.
-    \
-    &nbsp;
+    
 
     ![Landing Page](wireframes/hero-big.png)
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
+
 
 ### History Section
 + History Section
     - In the history section, users will discover valuable insights into the rich and diverse history of Romania
     - The section provides a concise overview of Romania's historical timeline
-    \
-    &nbsp;
+    
     - Desktop view
 
     ![History Section](wireframes/history-section-desktop.png)
-    \
-    &nbsp;
+    
 
     - Tablet view
 
     ![History Section](wireframes/history-section-tablet.png)
-    \
-    &nbsp;
+    
     - Mobile view
 
     ![History Section](wireframes/history-section-mobile.png)
-    \
-    &nbsp;
+    
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
+
 
 ### Culture Section
 + Culture Section
     - In the culture section, users will learn more about the language, folklore, religion and architecture of Romania
-    \
-    &nbsp;
+    
     - Desktop view
 
     ![Culture Section](wireframes/culture-section-desktop.png)
-    \
-    &nbsp;
+    
     - Tablet view
 
     ![Culture Section](wireframes/culture-section-tablet.png)
-    \
-    &nbsp;
+    
     - Mobile view
 
     ![Culture Section](wireframes/culture-section-mobile.png)
-    \
-    &nbsp;
+    
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
+
 
 ### Attractions Section
 + Attractions Section
     - In the attractions section, users will be presented with a collection of images showcasing some of Romania's most popular tourist destinations.
-    \
-    &nbsp;
+    
     - Desktop view
 
     ![Attractions Section](wireframes/attractions-section-desktop.png)
-    \
-    &nbsp;
+    
     - Tablet view
 
     ![Attractions Section](wireframes/attractions-section-tablet.png)
-    \
-    &nbsp;
+    
     - Mobile view
 
     ![Attractions Section](wireframes/attractions-section-mobile.png)
-    \
-    &nbsp;
+    
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
+
 
 ### Cuisine Section
 + Cuisine Section
     - In the cuisine section, users will be presented with a collection of images showcasing some of Romania's most popular dishes.
-    \
-    &nbsp;
+    
     - Desktop view
 
     ![Cuisine Section](wireframes/cuisine-section-desktop.png)
-    \
-    &nbsp;
+    
     - Tablet view
 
     ![Cuisine Section](wireframes/cuisine-section-tablet.png)
-    \
-    &nbsp;
+    
     - Mobile view
 
     ![Cuisine Section](wireframes/cuisine-section-mobile.png)
-    \
-    &nbsp;
+    
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
+
 
 ### Contact Section
 + Cuisine Section
     - In the contact section, users will be presented with a form where they can contact Explore Romania.
-    \
-    &nbsp;
+    
     - Desktop view
 
     ![Contact Section](wireframes/contact-section-desktop.png)
-    \
-    &nbsp;
+    
     - Tablet view
 
     ![Contact Section](wireframes/contact-section-tablet.png)
-    \
-    &nbsp;
+    
     - Mobile view
 
     ![Contact Section](wireframes/contact-section-mobile.png)
-    \
-    &nbsp;
+    
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
+
 
 ### Footer
 + Footer
     - In the contact section, users will be presented with a form where they can contact Explore Romania also a message from developer.
-    \
-    &nbsp;
+    
     - Desktop view
 
     ![Footer](wireframes/footer-section-desktop.png)
-    \
-    &nbsp;
+    
     - Tablet view
 
     ![Footer](wireframes/footer-section-tablet.png)
-    \
-    &nbsp;
+    
     - Mobile view
 
     ![Footer](wireframes/footer-section-mobile.png)
-    \
-    &nbsp;
+    
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
+
 
 ## Features to be Implemented
 
@@ -374,11 +327,8 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 + History section, a link to Wikipedia to learn more about Romania and a documentary video about Romania.
 
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
 
 
 # Technologies used
@@ -403,18 +353,15 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 * [Squoosh](https://squoosh.app/ "squoosh.app")
 * [Bootstrap](https://getbootstrap.com/ "bootstrap")
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
+
 
 
 # Testing
 
 + The website has met the objectives set by all parties involved. It's responsive on various screen sizes, ensuring clean and crisp images without excessive empty space. Users can easily navigate and contact us through the contact form or social media. The content is concise, and the design is uncluttered, providing a user-friendly experience.
-\
-&nbsp;
+
 
 + While testing I didn't encounter any errors with the final project.
 + HTML (index.html) validator [results](wireframes/html-validate.jpg "W3C HTML")
@@ -429,30 +376,27 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 
 ![Performance test for mobile](wireframes/desktop-performance.jpg)
 
-\
-&nbsp;
+
 
  + When testing on Google Chrome mobile version I didn't like the default browser theme color so I've customized the browser's theme color to match the website's theme, ensuring that everything looks just the way I prefer it.
 
  ```
-
  <meta name="theme-color" content="#121A18">
  ```
  
- ## Unfixed Bugs
+ ## Bugs
 
 + There are no bugs to fix in the final project
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
 
 
 
 # Deployment
 After writing the code, committing, and pushing it to GitHub, the project was deployed using GitHub by following these steps:
-\
-&nbsp;
+
+
 + Go to the repository on GitHub and click on 'Settings'.
 + In the side navigation, select 'Pages'.
 + In the 'None' dropdown, choose 'master'.
@@ -461,18 +405,14 @@ After writing the code, committing, and pushing it to GitHub, the project was de
 + If any changes are needed, you can make them, commit, and push to GitHub, and the updates will be reflected on the website.
 
 
-\
-&nbsp;
 [Back to Top](#table-of-contents)
-\
-&nbsp;
+
 
 # Credits
 
 For readme, help and advice,
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
-\
-&nbsp;
+
 
 For navigation and footer: 
 * [Love Running Project](https://codeinstitute.net "Love Running Project")
@@ -495,8 +435,5 @@ Images credits
 
 
 
-\
-&nbsp;
+
 [Back to Top](#table-of-contents)
-\
-&nbsp;
