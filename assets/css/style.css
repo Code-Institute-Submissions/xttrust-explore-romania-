@@ -131,6 +131,10 @@ button:hover {
     color: var(--color-yellow);
 }
 
+.text-center {
+    text-align: center;
+}
+
 .container {
     background-color: var(--color-white);
     padding: 1rem;
