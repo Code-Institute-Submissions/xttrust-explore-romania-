@@ -513,14 +513,14 @@ footer {
   }
 
   .culture-content-card {
-    flex-basis: calc(
-      50% - 2rem
-    ); /* Calculate the flex-basis for 2 columns with a 2rem gap. */
+    flex-basis: calc(50% - 2rem);
+    /* Calculate the flex-basis for 2 columns with a 2rem gap. */
     flex-grow: 1;
   }
 
   .attractions-card {
-    flex: 1 0 calc(33.333% - 2rem); /* 3 cards in a row with 2rem spacing between them */
+    flex: 1 0 calc(33.333% - 2rem);
+    /* 3 cards in a row with 2rem spacing between them */
   }
 }
 
