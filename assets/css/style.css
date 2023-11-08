@@ -229,6 +229,7 @@ footer {
 .nav-toggle-label {
   color: var(--color-light);
   font-size: 2rem;
+  padding-right: 1rem;
 }
 
 /* Main Starts Here */
