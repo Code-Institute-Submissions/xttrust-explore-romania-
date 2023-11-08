@@ -125,6 +125,10 @@ footer {
 }
 
 /* Common styles */
+.my-1{
+    margin: 1rem 0;
+}
+
 .text-blue {
     color: var(--color-blue);
 }
@@ -256,18 +260,18 @@ footer {
     border-radius: .5rem;
 }
 
-.history-content div {
+.history-content-card {
     padding: 1.5rem;
     margin: 1.5rem;
     border-radius: .5rem;
 }
 
-.history-content ul {
+.history-content-ul {
     margin-left: 2rem;
     padding: 1rem 0;
 }
 
-.history-content ul li {
+.history-content-li {
     list-style-type: disc;
     padding: 1rem 0;
     font-family: "Montserrat",sans-serif;
@@ -290,13 +294,13 @@ footer {
 }
 
 
-#culture-content div {
+.culture-content-card {
     padding: 1.5rem;
     flex-basis: 20rem;
     flex-grow: 1;
     background-color: var(--color-white);
 }
-#culture-content div h3 {
+.culture-content-card-title {
     color: var(--color-dark);
     margin-bottom: 2rem;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
@@ -484,7 +488,7 @@ footer {
         flex-wrap: wrap; 
     }
 
-    #culture-content div {
+    .culture-content-card {
         flex-basis: calc(50% - 2rem); /* Calculate the flex-basis for 2 columns with a 2rem gap. */
         flex-grow: 1;
     }
