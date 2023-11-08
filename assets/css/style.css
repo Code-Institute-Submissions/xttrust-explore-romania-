@@ -61,6 +61,64 @@ img {
     line-height: 1rem;
 }
 
+nav {
+    position: absolute;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    width: 100%;
+    left: 0;
+    border-bottom: 1px solid var(--color-yellow);
+    display: none;
+    top: 100%;
+}
+
+header {
+    background-color: var(--color-dark);
+    padding: 0 .6rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    border-bottom: 1px solid var(--color-yellow);
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    margin: 1rem 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 1rem;
+    border: 0;
+    border-radius: .5rem;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-blue);
+}
+
+/* Common styles */
 .text-blue {
     color: var(--color-blue);
 }
@@ -95,15 +153,6 @@ img {
 }
 
 /* Header */
-header {
-    background-color: var(--color-dark);
-    padding: 0 .6rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    border-bottom: 1px solid var(--color-yellow);
-}
-
 #header-container {
     display: flex;
     justify-content: space-between;
@@ -139,18 +188,6 @@ header h1 {
 }
 
 /* Navbar styles with dropdown toggle */
-nav {
-    position: absolute;
-    background-color: var(--color-dark);
-    color: var(--color-white);
-    width: 100%;
-    left: 0;
-    border-bottom: 1px solid var(--color-yellow);
-    display: none;
-    top: 100%;
-}
-
-/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -165,12 +202,7 @@ nav {
 }
 
 /* Main */
-main {
-    flex: 1 0 auto;
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-}
+
 
 /* Hero */
 #hero {
@@ -260,7 +292,6 @@ main {
     margin-bottom: 2rem;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
-/* End culture section */
 
 /* Start attractions section */
 #attractions {
@@ -299,7 +330,6 @@ main {
 .attractions-card p {
     text-align: center;
 }
-/* End attractions section */
 
 /* Start cuisine section */
 #cuisine {
@@ -315,8 +345,6 @@ main {
     line-height: 0;
 }
 
-/* End cuisine section */
-
 /* Start contact section */
 #contact {
     margin: 5rem 0;
@@ -329,40 +357,6 @@ main {
     box-shadow: var(--box-shadow);
     margin-bottom: 4rem;
 }
-
-
-input[type=text], input[type=email], select {
-    width: 100%;
-    padding: 1rem 2rem;
-    margin: 1rem 0;
-    display: inline-block;
-    border: 1px solid #cccccc;
-    box-sizing: border-box;
-}
-
-textarea {
-    width: 100%;
-    margin: 1rem 0;
-    display: inline-block;
-    border: 1px solid #cccccc;
-    box-sizing: border-box;
-}
-
-button {
-    padding: 1rem;
-    border: 0;
-    border-radius: .5rem;
-    background-color: var(--color-dark);
-    color: var(--color-light);
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: var(--color-blue);
-}
-  
-/* End contact section */
-
 
 /* Start footer */
 footer {
@@ -400,10 +394,6 @@ footer p {
 #social-networks i:hover {
     color: var(--color-blue);
 }
-
-/* End footer */
-
-/** Start media query's for responsive design */
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -454,15 +444,12 @@ footer p {
     #cover-text {
         min-height: 15rem;
     }
-    /* End Header */
-
     
     /* Attractions */
     .attractions-card {
         flex: 1 0 42%;
     }
 
-    /* Cuisine */
     .cuisine-content {
         column-count: 3;
     }
@@ -497,13 +484,10 @@ footer p {
         flex-grow: 1;
     }
 
-    /* Attractions */
     .attractions-card {
         flex: 1 0 calc(33.333% - 2rem); /* 3 cards in a row with 2rem spacing between them */
     }
 
-    /* Cuisine */
-    
 }
     
 
@@ -522,17 +506,14 @@ footer p {
         margin: 0 auto;
     }
 
-    /* Culture */
     #culture-content {
         margin: 0;
     }
 
-    /* Attractions */
     .attractions-card {
         flex: 1 0 21%;
     }
 
-    /* Cuisine */
     .cuisine-content {
         column-count: 4;
     }
