@@ -347,11 +347,8 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * [Colorcombos](https://www.colorcombos.com "colorcombos")
-* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
-* [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [CSS Scan](https://getcssscan.com/css-box-shadow-examples "getcssscan.com")
 * [Squoosh](https://squoosh.app/ "squoosh.app")
-* [Bootstrap](https://getbootstrap.com/ "bootstrap")
 
 
 [Back to Top](#table-of-contents)
@@ -396,13 +393,18 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 # Deployment
 After writing the code, committing, and pushing it to GitHub, the project was deployed using GitHub by following these steps:
 
++ Go to the repository on GitHub and click on **Settings**
 
-+ Go to the repository on GitHub and click on 'Settings'.
-+ In the side navigation, select 'Pages'.
-+ In the 'None' dropdown, choose 'master'.
-+ Click the 'Save' button.
-+ The website is now live at https://xttrust.github.io/explore-romania/.
++ In the side navigation, select **Pages**
+
++ In the 'None' dropdown, choose **main**
+
++ Click the **Save** button.
+
++ The website is now live at `https://USERNAME.github.io/explore-romania/`
+
 + If any changes are needed, you can make them, commit, and push to GitHub, and the updates will be reflected on the website.
+
 
 
 [Back to Top](#table-of-contents)
