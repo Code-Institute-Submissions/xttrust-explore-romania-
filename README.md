@@ -302,7 +302,7 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 
 ### Footer
 + Footer
-    - In the contact section, users will be presented with a form where they can contact Explore Romania also a message from developer.
+    - In the footer section, users will find external links to social media also a made by message.
     
     - Desktop view
 
