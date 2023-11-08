@@ -73,10 +73,6 @@ img {
     color: var(--color-yellow);
 }
 
-.hidden {
-    display: none;
-}
-
 .container {
     background-color: var(--color-white);
     padding: 1rem;
