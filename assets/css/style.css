@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
+/* Reset */
 :root {
     --color-blue: #3a71c5;
     --color-yellow: #e9eb0a;
@@ -11,7 +12,7 @@
     /* By setting the font size here to 62.5 we reset the rem. Now 1rem = 10px */
     font-size: 62.5%; 
 }
-/* End root */
+
 * {
     padding: 0;
     margin: 0;
@@ -118,6 +119,11 @@ button:hover {
     background-color: var(--color-blue);
 }
 
+footer {
+    background-color: var(--color-dark);
+    border-top: 1px solid var(--color-yellow);
+}
+
 /* Common styles */
 .text-blue {
     color: var(--color-blue);
@@ -144,12 +150,12 @@ button:hover {
     padding: 3rem;
 }
 
-.section-head h2 {
+.section-title {
     text-align: center;
     font-size: 2.5rem;
 }
 
-.section-head h3 {
+.section-description {
     text-align: center;
     font-size: 1.6rem;
     padding: 1rem;
@@ -157,7 +163,7 @@ button:hover {
 }
 
 /* Header */
-#header-container {
+#navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,7 +171,7 @@ button:hover {
     padding: 0;
 }
 
-header h1 {
+#hero-heading {
     padding: 1rem;
     font-size: 2.6rem;
     text-transform: uppercase;
@@ -363,17 +369,13 @@ header h1 {
 }
 
 /* Start footer */
-footer {
-    background-color: var(--color-dark);
-    border-top: 1px solid var(--color-yellow);
-}
 
 #footer-container {
     background-color: var(--color-dark);
     padding: 0;
 }
 
-footer p {
+#footer-made-by {
     color: var(--color-light);
     text-align: center;
     display: block;
