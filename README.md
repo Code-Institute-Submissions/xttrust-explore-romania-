@@ -44,6 +44,7 @@ Explore Romania is a website that offers insights into Romania's history, cultur
 * [Testing](#testing)
     * [Unfixed Bugs](#unfixed-bugs)
 * [Deployment](#deployment)
+* [Refactor](#refactor)
 * [Credits](#credits)
 
 
@@ -425,6 +426,18 @@ After writing the code, committing, and pushing it to GitHub, the project was de
 
 [Back to Top](#table-of-contents)
 
+# Refactor
+After the refactor some of the design changed. See details below.
+
++ The attractions section has a hover effect of a blue-box-shadow of 3px to distinguish from the others.
+
+![Refactor hover effect](wireframes/attractions-hover-refactor.jpg)
+
++ In the cuisine section the images have a padding of 3px.
+
+![Refactor images padding](wireframes/cuisine-img-padding-refactor.jpg)
+
+[Back to Top](#table-of-contents)
 
 # Credits
 
