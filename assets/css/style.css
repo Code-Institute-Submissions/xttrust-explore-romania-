@@ -9,7 +9,7 @@
     --color-white: #ffffff;
     --color-dark: #0d1b2a;
     --box-shadow: rgba(0, 0, 0, 0.35) 0 .5rem 1.5rem;
-    --bos-shadow-hover: rgba(3, 102, 214, 0.3) 0 0 0 3px;
+    --box-shadow-hover: rgba(3, 102, 214, 0.3) 0 0 0 3px;
     /* By setting the font size here to 62.5 we reset the rem. Now 1rem = 10px */
     font-size: 62.5%; 
 }
@@ -300,7 +300,10 @@ footer {
     flex-basis: 20rem;
     flex-grow: 1;
     background-color: var(--color-white);
+    transition: all .5s ease-in;
 }
+
+
 .culture-content-card-title {
     color: var(--color-dark);
     margin-bottom: 2rem;
@@ -329,7 +332,7 @@ footer {
 }
 
 .attractions-card:hover {
-    box-shadow: var(--bos-shadow-hover)
+    box-shadow: var(--box-shadow-hover)
 }
 
 .attractions-card img {
