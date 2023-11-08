@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank you | Explore Romania</title>
     <!-- Meta tags for Search Engines -->
-    <meta name="description" content="Thank you for contacting Explore Romania.">
-    <meta name="keywords" content="Thank you for contacting Explore Romania. We will get back to you ass son as posible">
+    <meta name="description" content="Thank you for contacting Explore Romania. We will get back to you ass son as posible">
+    <meta name="keywords" content="Explore Romania, thank you">
     <!-- Theme color for address bar -->
     <meta name="theme-color" content="#0d1b2a">
     <!-- Favicon -->
@@ -17,14 +17,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Font Awesome kit - Javascript dosn't work for me so I use a free CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <meta http-equiv="refresh" content="5;url=https://xttrust.github.io/explore-romania/" />
 </head>
 <body>
     <!-- Start Header -->
-    <header id="#top">
-      <div class="container" id="header-container">
-        <a href="#top">
-          <h1>
+    <header>
+      <div class="container" id="navbar-container">
+        <a href="index.html">
+          <h1 id="hero-heading">
             Explore 
             <!-- Because of linter if I separate them on differet lines adds a gap between letters -->
             <span class="text-blue">Ro</span><span class="text-yellow">ma</span><span class="text-red">nia</span>
@@ -37,7 +36,7 @@
         <nav>
           <ul id="menu">
             <li>
-              <a href="#top" class="nav-link" aria-label="Homepage">Home</a>
+              <a href="index.html" class="nav-link" aria-label="Homepage">Home</a>
             </li>
             <li>
               <a href="#history" class="nav-link" aria-label="History">History</a>
@@ -61,20 +60,21 @@
     <!-- End Header -->
 
     <!-- Start Main -->
-    <main>   
-
+    <main>
+        
         <!-- Start History Section -->
         <section id="history">
           <div class="container history-container">
             <div class="section-head">
-              <h2>Thank you!</h2>
-              <h3>Your message has been send.</h3>
+              <h2 class="section-title">Thank you!</h2>
+              <h3 class="section-description">Your message has been send.</h3>
               <p class="text-center">In 5 seconds you will be redirected to Explore Romania home page.</p>
             </div>
           </div>
         </section>
         <!-- End History Section -->
 
+       
     </main>
     <!-- End Main -->
 
@@ -104,8 +104,9 @@
           </li>
         </ul>
       </div>
-      <p>Made with love by Florin Pinta</p>
+      <p id="footer-made-by">Made with love by Florin Pinta</p>
     </footer>
     <!-- End Footer -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
