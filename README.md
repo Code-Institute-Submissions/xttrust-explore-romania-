@@ -73,7 +73,7 @@ Explore Romania is a website that offers insights into Romania's history, cultur
 ### Requirements
 * Easy to navigate on various screen sizes.
 * Clear and precise information about Romania.
-* Simple methods of contacting the club.
+* Simple method of contacting the website.
 * Visually appealing design.
 ### Expectations
 * I expect all links to social media sites to be opened in a new tab.
