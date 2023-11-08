@@ -387,16 +387,16 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 |-----------------------|:--------------:|------------:|---------------|---------------|
 | Samsung Galaxy S20    | Responsiveness | Menu Button | Passed        | Passed        |
 | Samsung Galaxy S21 FE | Responsiveness | Menu Button | Passed        | Passed        |
-| iPad Air 4            | Responsiveness | Menu Button | Passed        | Passed        |
-| Galaxy Tab S7         | Responsiveness | Menu Button | Passed        | Passed        |
+| iPad Air 4            | Responsiveness | Menu        | Passed        | Passed        |
+| Galaxy Tab S7         | Responsiveness | Menu        | Passed        | Passed        |
 | iPhone 5              | Responsiveness | Menu Button | Passed        | Passed        |
 | iPhone X              | Responsiveness | Menu Button | Passed        | Passed        |
 | iPhone 11             | Responsiveness | Menu Button | Passed        | Passed        |
 | iPhone 12 Mini        | Responsiveness | Menu Button | Passed        | Passed        |
 | iPhone 13 PRO         | Responsiveness | Menu Button | Passed        | Passed        |
-| Mackbook Air          | Responsiveness | Menu Button | Passed        | Passed        |
-| Desktop               | Responsiveness | Menu Button | Passed        | Passed        |
-| Dell Latitude         | Responsiveness | Menu Button | Passed        | Passed        |
+| Mackbook Air          | Responsiveness | Menu        | Passed        | Passed        |
+| Desktop               | Responsiveness | Menu        | Passed        | Passed        |
+| Dell Latitude         | Responsiveness | Menu        | Passed        | Passed        |
  
  ## Bugs
 
