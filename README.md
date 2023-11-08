@@ -153,7 +153,7 @@ The wireframes are below:
 
 ### Navigation Bar
 
-The navigation bar is fully responsive. Since the navbar is static it provides to user a way to navigate the website very easy, making it a user-friendly
+The navigation bar is fully responsive. Since the navbar is fixed to the top it provides to user a way to navigate the website very easy, making it a user-friendly
 
 + Desktop (>=992px)
 \
@@ -342,7 +342,7 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 
 ### Footer
 + Footer
-    - In the contact section, users will be presented with a form where they can contact Explore Romania.
+    - In the contact section, users will be presented with a form where they can contact Explore Romania also a message from developer.
     \
     &nbsp;
     - Desktop view
@@ -419,6 +419,15 @@ The navigation bar is fully responsive. Since the navbar is static it provides t
 + While testing I didn't encounter any errors with the final project.
 + HTML (index.html) validator [results](wireframes/html-validate.jpg "W3C HTML")
 + CSS validator [results](wireframes/css-validate.jpg "W3C CSS")
+
++ The final project was tested using Google's Lighthouse on githubpages. The results are below
++ Performance test for Mobile: 
+
+![Performance test for mobile](wireframes/mobile-performance.jpg)
+
++ Performance test for Desktop: 
+
+![Performance test for mobile](wireframes/desktop-performance.jpg)
 
 \
 &nbsp;
