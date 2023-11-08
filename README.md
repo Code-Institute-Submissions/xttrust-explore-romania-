@@ -320,6 +320,21 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 
 [Back to Top](#table-of-contents)
 
+### Thank You Page (Form submision page)
++ In this page users will see a section with a thank you message and they will be redirected back to homepage after 5 seconds.
+
+- Desktop view
+
+    ![Contact Section](wireframes/thank-you-desktop.jpg)
+    
+    - Tablet view
+
+    ![Contact Section](wireframes/thank-you-tablet.jpg)
+    
+    - Mobile view
+
+    ![Contact Section](wireframes/thank-you-mobile.png)
+
 
 ## Features to be Implemented
 
