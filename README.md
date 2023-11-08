@@ -90,9 +90,8 @@ Explore Romania is a website that offers insights into Romania's history, cultur
 ## Design Choices
 
 ### Fonts
-In order to move away from the basic fonts available, I have used 
-[Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website. For the main text I have chosen [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mon "Montserrat font") as I feel it is has a sharp, simple and easy to read look.
-In order for headings to stand I have used ("Open Sans", sans-serif).
+To diversify the font choices beyond the standard options, I've integrated [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a typeface that complements the website's aesthetic. For the main text, I've opted for [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mon "Montserrat font") due to its sharp, simple, and easily legible appearance. To make headings stand out, I've applied "Open Sans" with a sans-serif fallback.
+
 
 ### Icons
 As for icons I decided to use for my website [Font Awesome library](https://fontawesome.com/ "Font Awesome").
