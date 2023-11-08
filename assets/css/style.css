@@ -211,8 +211,7 @@ footer {
     font-size: 2rem;
 }
 
-/* Main */
-
+/* Main Starts Here */
 
 /* Hero */
 #hero {
@@ -222,7 +221,7 @@ footer {
     position: relative;
 }
 
-#cover-text {
+#hero-container {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(0, 0, 0, 0.9);
     font-size: 120%;
@@ -236,7 +235,7 @@ footer {
     color: var(--color-light);
 }
 
-#cover-text > h2, #cover-text > h3 {
+#hero-heading, #hero-text {
     color: var(--color-white);
 }
 
@@ -447,7 +446,7 @@ footer {
         display: none;
     }
 
-    #cover-text {
+    #hero-container {
         min-height: 15rem;
     }
     
@@ -472,7 +471,7 @@ footer {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     /* Hero */
-    #cover-text {
+    #hero-container {
         width: 80%;
         left: 0;
         right: 0;
@@ -505,7 +504,7 @@ footer {
     }
 
      /* Hero */
-     #cover-text {
+     #hero-container {
         width: 120rem;
         left: 0;
         right: 0;
