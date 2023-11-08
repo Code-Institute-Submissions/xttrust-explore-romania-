@@ -467,7 +467,7 @@ For readme, help and advice,
 &nbsp;
 
 For navigation and footer: 
-* [Love Running Project](codeinstitute.net "Love Running Project")
+* [Love Running Project](https://codeinstitute.net "Love Running Project")
 
 For images and content inspiration: 
 * [Chefspencil](https://www.chefspencil.com/top-10-romanian-foods/ "chefspencil.com")
