@@ -9,6 +9,7 @@
     --color-white: #ffffff;
     --color-dark: #0d1b2a;
     --box-shadow: rgba(0, 0, 0, 0.35) 0 .5rem 1.5rem;
+    --bos-shadow-hover: rgba(3, 102, 214, 0.3) 0 0 0 3px;
     /* By setting the font size here to 62.5 we reset the rem. Now 1rem = 10px */
     font-size: 62.5%; 
 }
@@ -328,7 +329,7 @@ footer {
 }
 
 .attractions-card:hover {
-    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    box-shadow: var(--bos-shadow-hover)
 }
 
 .attractions-card img {
@@ -358,6 +359,7 @@ footer {
 .cuisine-content img {
     width: 100%;
     line-height: 1em;
+    padding: 3px;
 }
 
 .cuisine-content {
