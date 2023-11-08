@@ -41,7 +41,7 @@ Explore Romania is a website that offers insights into Romania's history, cultur
         * [Features to be implemented](#features-to-be-implemented)
     * [Technologies used](#technologies-used)
         * [Languages](#languages)
-        * [Tools and Libraries](#tools-and-libraries)
+        * [Tools](#tools)
     * [Testing](#testing)
         * [Unfixed Bugs](#unfixed-bugs)
     * [Deployment](#deployment)
