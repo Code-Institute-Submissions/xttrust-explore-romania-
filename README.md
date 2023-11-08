@@ -420,7 +420,7 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 + HTML (index.html) validator [results](wireframes/html-validate.jpg "W3C HTML")
 + CSS validator [results](wireframes/css-validate.jpg "W3C CSS")
 
-+ The final project was tested using Google's Lighthouse on githubpages. The results are below
++ The final project was tested using Google's Lighthouse on github pages. The results are below
 + Performance test for Mobile: 
 
 ![Performance test for mobile](wireframes/mobile-performance.jpg)
