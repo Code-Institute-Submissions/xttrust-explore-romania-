@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore Romania</title>
     <!-- Meta tags for Search Engines -->
-    <meta name="description" content="Dive into Romania's captivating history, vibrant culture, must-visit attractions, and savory cuisine.">
-    <meta name="keywords" content="explore Romania, Romania, history, culture, attractions, cusine">
+    <meta
+      name="description"
+      content="Dive into Romania's captivating history, vibrant culture, must-visit attractions, and savory cuisine."
+    />
+    <meta
+      name="keywords"
+      content="explore Romania, Romania, history, culture, attractions, cusine"
+    />
     <!-- Theme color for address bar -->
-    <meta name="theme-color" content="#0d1b2a">
+    <meta name="theme-color" content="#0d1b2a" />
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Font Awesome kit - Javascript dosn't work for me so I use a free CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- Start Header -->
     <header>
       <div class="container" id="navbar-container">
         <a href="#hero">
           <h1 id="hero-heading">
-            <span class="text-light">Explore</span> 
+            <span class="text-light">Explore</span>
             <!-- Because of linter if I separate them on differet lines adds a gap between letters -->
-            <span class="text-blue">Ro</span><span class="text-yellow">ma</span><span class="text-red">nia</span>
+            <span class="text-blue">Ro</span><span class="text-yellow">ma</span
+            ><span class="text-red">nia</span>
           </h1>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
         <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars"></i>
         </label>
         <nav>
           <ul id="menu">
@@ -39,19 +63,29 @@
               <a href="#hero" class="nav-link" aria-label="Homepage">Home</a>
             </li>
             <li>
-              <a href="#history" class="nav-link" aria-label="History">History</a>
+              <a href="#history" class="nav-link" aria-label="History"
+                >History</a
+              >
             </li>
             <li>
-              <a href="#culture" class="nav-link" aria-label="Culture">Culture</a>
+              <a href="#culture" class="nav-link" aria-label="Culture"
+                >Culture</a
+              >
             </li>
             <li>
-              <a href="#attractions" class="nav-link" aria-label="Attractions">Attractions</a>
+              <a href="#attractions" class="nav-link" aria-label="Attractions"
+                >Attractions</a
+              >
             </li>
             <li>
-              <a href="#cuisine" class="nav-link" aria-label="Cuisine">Cuisine</a>
+              <a href="#cuisine" class="nav-link" aria-label="Cuisine"
+                >Cuisine</a
+              >
             </li>
             <li>
-              <a href="#contact" class="nav-link" aria-label="Contact">Contact</a>
+              <a href="#contact" class="nav-link" aria-label="Contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </nav>
@@ -61,81 +95,93 @@
 
     <!-- Start Main -->
     <main>
-        <!-- Start Hero Section -->
-        <section id="hero">
-            <div id="hero-container">
-                <h2 class="hero-heading">
-                  <span class="text-light">Explore</span> 
-                  <!-- Because of linter if I separate them on differet lines adds a gap between letters -->
-                  <span class="text-blue">Ro</span><span class="text-yellow">ma</span><span class="text-red">nia</span>
-                </h2>
-                <p class="hero-text">Dive into Romania's captivating history, vibrant culture, must-visit attractions, and savory cuisine.</p>
-            </div>
-        </section>
-        <!-- End Hero Section -->
+      <!-- Start Hero Section -->
+      <section id="hero">
+        <div id="hero-container">
+          <h2 class="hero-heading">
+            <span class="text-light">Explore</span>
+            <!-- Because of linter if I separate them on differet lines adds a gap between letters -->
+            <span class="text-blue">Ro</span><span class="text-yellow">ma</span
+            ><span class="text-red">nia</span>
+          </h2>
+          <p class="hero-text">
+            Dive into Romania's captivating history, vibrant culture, must-visit
+            attractions, and savory cuisine.
+          </p>
+        </div>
+      </section>
+      <!-- End Hero Section -->
 
-        <!-- Start History Section -->
-        <section id="history">
-          <div class="container history-container">
-            <div class="section-head">
-              <h2 class="section-title">Romania's Past</h2>
-              <h3 class="section-description">Short brief about Romanian History</h3>
-            </div>
-  
-            <div class="history-content">
-              <div class="history-content-card">
-                <p>
-                  Romania is a country of southeastern Europe whose national capital is Bucharest. 
-                  It has a rich and diverse history, influenced by various cultures and 
-                  civilizations that have shaped its identity and heritage. 
-                </p>
-                <hr class="my-1">
-                <ul class="history-content-ul">
-                  <li class="history-content-li">
-                    Romania's earliest inhabitants were the Thracians, who settled 
-                    in the Carpathian-Danube region around 2000 BCE and intermingled 
-                    with the native Neolithic peoples. 
-                  </li>
-                  <li class="history-content-li">
-                    Romania's territory was part of the ancient kingdom of Dacia, 
-                    which was conquered by the Roman Empire in the 2nd century CE and 
-                    became a province of Rome. The Romanization of the Dacians led 
-                    to the emergence of the Romanian language, a Romance language 
-                    derived from Latin. 
-                  </li>
-                  <li class="history-content-li">
-                    Romania's modern state was formed in 1859 through a personal 
-                    union of the Danubian Principalities of Moldavia and Wallachia, 
-                    which gained their independence from the Ottoman Empire in the 19th century. 
-                  </li>
-                  <li class="history-content-li">
-                    Romania joined the Triple Alliance in World War I and fought against 
-                    the Central Powers, but switched sides in 1916 and joined the Entente. 
-                    After the war, Romania gained new territories from Austria-Hungary and Russia, 
-                    becoming the largest country in Southeastern Europe. 
-                  </li>
-                </ul>
-                <hr class="my-1">
-                <p>
-                  Romania faced political and social turmoil in the interwar period, 
-                  as well as the rise of fascism and authoritarianism. In World War II, 
-                  Romania allied with Nazi Germany and participated in the invasion of 
-                  the Soviet Union, but changed sides again in 1944 and joined the Allies. 
-                  After the war, Romania became a communist state under the influence of the Soviet Union. 
-                </p>
-              </div>
+      <!-- Start History Section -->
+      <section id="history">
+        <div class="container history-container">
+          <div class="section-head">
+            <h2 class="section-title">Romania's Past</h2>
+            <h3 class="section-description">
+              Short brief about Romanian History
+            </h3>
+          </div>
+
+          <div class="history-content">
+            <div class="history-content-card">
+              <p>
+                Romania is a country of southeastern Europe whose national
+                capital is Bucharest. It has a rich and diverse history,
+                influenced by various cultures and civilizations that have
+                shaped its identity and heritage.
+              </p>
+              <hr class="my-1" />
+              <ul class="history-content-ul">
+                <li class="history-content-li">
+                  Romania's earliest inhabitants were the Thracians, who settled
+                  in the Carpathian-Danube region around 2000 BCE and
+                  intermingled with the native Neolithic peoples.
+                </li>
+                <li class="history-content-li">
+                  Romania's territory was part of the ancient kingdom of Dacia,
+                  which was conquered by the Roman Empire in the 2nd century CE
+                  and became a province of Rome. The Romanization of the Dacians
+                  led to the emergence of the Romanian language, a Romance
+                  language derived from Latin.
+                </li>
+                <li class="history-content-li">
+                  Romania's modern state was formed in 1859 through a personal
+                  union of the Danubian Principalities of Moldavia and
+                  Wallachia, which gained their independence from the Ottoman
+                  Empire in the 19th century.
+                </li>
+                <li class="history-content-li">
+                  Romania joined the Triple Alliance in World War I and fought
+                  against the Central Powers, but switched sides in 1916 and
+                  joined the Entente. After the war, Romania gained new
+                  territories from Austria-Hungary and Russia, becoming the
+                  largest country in Southeastern Europe.
+                </li>
+              </ul>
+              <hr class="my-1" />
+              <p>
+                Romania faced political and social turmoil in the interwar
+                period, as well as the rise of fascism and authoritarianism. In
+                World War II, Romania allied with Nazi Germany and participated
+                in the invasion of the Soviet Union, but changed sides again in
+                1944 and joined the Allies. After the war, Romania became a
+                communist state under the influence of the Soviet Union.
+              </p>
             </div>
           </div>
-        </section>
-        <!-- End History Section -->
+        </div>
+      </section>
+      <!-- End History Section -->
 
-        <!-- Start Culture Section -->
-        <section id="culture">
-          <div class="container">
-            <!-- Start .section-head -->
+      <!-- Start Culture Section -->
+      <section id="culture">
+        <div class="container">
+          <!-- Start .section-head -->
           <div class="section-head">
             <h2 class="section-title">Romanian Culture</h2>
-            <h3 class="section-description">Short brief about Romanian culture</h3>
+            <h3 class="section-description">
+              Short brief about Romanian culture
+            </h3>
           </div>
           <!-- End .section-head -->
 
@@ -144,184 +190,275 @@
             <div class="culture-content-card">
               <h3 class="culture-content-card-title">Language</h3>
               <p>
-                The Romanian language is a Romance language, descended from Latin, 
-                and is the most significant cultural identifier for Romanians. 
+                The Romanian language is a Romance language, descended from
+                Latin, and is the most significant cultural identifier for
+                Romanians.
               </p>
               <p>
-                It has its unique features, and the Cyrillic script was used for 
-                writing Romanian in the past, but the Latin alphabet is now standard.
+                It has its unique features, and the Cyrillic script was used for
+                writing Romanian in the past, but the Latin alphabet is now
+                standard.
               </p>
               <p>
-                The language carries a rich literary tradition, with notable figures 
-                like Mihai Eminescu and Ion Creangă.
+                The language carries a rich literary tradition, with notable
+                figures like Mihai Eminescu and Ion Creangă.
               </p>
             </div>
-  
+
             <div class="culture-content-card">
-              <h3 class="culture-content-card-title">Folklore and Folk Traditions</h3>
-              <p>Romanian culture is deeply rooted in folklore and traditional customs.</p>
-              <p>Folk music, dance, and storytelling play a vital role in preserving 
-                the country's heritage.</p>
+              <h3 class="culture-content-card-title">
+                Folklore and Folk Traditions
+              </h3>
               <p>
-                The traditional Romanian blouse, known as the "ie," 
-                is a symbol of national pride, and each region has its own unique patterns and designs.
+                Romanian culture is deeply rooted in folklore and traditional
+                customs.
+              </p>
+              <p>
+                Folk music, dance, and storytelling play a vital role in
+                preserving the country's heritage.
+              </p>
+              <p>
+                The traditional Romanian blouse, known as the "ie," is a symbol
+                of national pride, and each region has its own unique patterns
+                and designs.
               </p>
             </div>
-  
+
             <div class="culture-content-card">
               <h3 class="culture-content-card-title">Religion</h3>
               <p>
-                The majority of Romanians are Eastern Orthodox Christians, and the church 
-                has a significant influence on the culture and daily life of the people.
+                The majority of Romanians are Eastern Orthodox Christians, and
+                the church has a significant influence on the culture and daily
+                life of the people.
               </p>
               <p>
-                Religious festivals and traditions are widely observed, and religious 
-                art and architecture are prevalent throughout the country.
+                Religious festivals and traditions are widely observed, and
+                religious art and architecture are prevalent throughout the
+                country.
               </p>
             </div>
-  
+
             <div class="culture-content-card">
               <h3 class="culture-content-card-title">Architecture</h3>
               <p>
-                Romania's architecture is a blend of various styles, including Byzantine, 
-                Gothic, Renaissance, and Baroque, reflecting its complex history.
+                Romania's architecture is a blend of various styles, including
+                Byzantine, Gothic, Renaissance, and Baroque, reflecting its
+                complex history.
               </p>
               <p>
-                The iconic painted monasteries of Northern Moldova are UNESCO World 
-                Heritage Sites, known for their unique frescoes.
+                The iconic painted monasteries of Northern Moldova are UNESCO
+                World Heritage Sites, known for their unique frescoes.
               </p>
             </div>
           </div>
           <!-- End .culture-content -->
-          </div>
-        </section>
-        <!-- End Culture Section -->
+        </div>
+      </section>
+      <!-- End Culture Section -->
 
-        <!-- Start Attractions Section -->
-        <section id="attractions">
-          <div class="container">
-            <div class="section-head">
-              <h2 class="section-title">Must-Visit Attractions</h2>
-              <h3 class="section-description">Discover Romania's Top Tourist Destinations</h3>
-            </div>
-  
-            <!-- Top attraction images -->
-            <div class="attractions-content">
-  
-              <div class="attractions-card">
-                <p>Romanian Athenaeum</p>
-                <figure>
-                  <img src="assets/images/attractions/ateneul-roman.webp" alt="Ateneul Roman">
-                  <figcaption>Credits: tripadvisor.com</figcaption>
-                </figure>
-              </div>
-  
-              <div class="attractions-card">
-                <p>Bran Castle (Dracula's Castle)</p>
-                <figure>
-                  <img src="assets/images/attractions/bran-castle-dracula-castle.webp" alt="Bran Castle (Dracula's Castle)">
-                  <figcaption>Credits: tripadvisor.com</figcaption>
-                </figure>
-              </div>
-  
-              <div class="attractions-card">
-                <p>Herastrau Park</p>
-                <figure>
-                  <img src="assets/images/attractions/herastrau-park.webp" alt="Herastrau Park">
-                  <figcaption>Credits: tripadvisor.com</figcaption>
-                </figure>
-              </div>
-  
-              <div class="attractions-card">
-                <p>The National Village Museum</p>
-                <figure>
-                  <img src="assets/images/attractions/house-from-alunis-prahova.webp" alt="The National Village Museum">
-                  <figcaption>Credits: tripadvisor.com</figcaption>
-                </figure>
-              </div>
-  
-              <div class="attractions-card">
-                <p>Stavropoleos Monastery</p>
-                <figure>
-                  <img src="assets/images/attractions/manastirea-stavropoleos.webp" alt="Stavropoleos Monastery">
-                  <figcaption>Credits: tripadvisor.com</figcaption>
-                </figure>
-              </div>
-  
-              <div class="attractions-card">
-                <p>Palace of Parliament</p>
-                <figure>
-                  <img src="assets/images/attractions/palace-of-parliament.webp" alt="Palace of Parliament">
-                  <figcaption>Credits: tripadvisor.com</figcaption>
-                </figure>
-              </div>
-  
-              <div class="attractions-card">
-                <p>Peles Castle</p>
-                <figure>
-                  <img src="assets/images/attractions/peles-castle.webp" alt="Peles Castle">
-                  <figcaption>Credits: tripadvisor.com</figcaption>
-                </figure>
-              </div>
-  
-              <div class="attractions-card">
-                <p>Transfagarasan Highway</p>
-                <figure>
-                  <img src="assets/images/attractions/transfagarasan-highway.webp" alt="Transfagarasan Highway">
-                  <figcaption>Credits: tripadvisor.com</figcaption>
-                </figure>
-              </div>
-  
-            </div>
+      <!-- Start Attractions Section -->
+      <section id="attractions">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Must-Visit Attractions</h2>
+            <h3 class="section-description">
+              Discover Romania's Top Tourist Destinations
+            </h3>
           </div>
-        </section>
-        <!-- End Attractions Section -->
 
-        <!-- Start Cuisine Section -->
-        <section id="cuisine">
-          <div class="container">
-            <div class="section-head">
-              <h2 class="section-title">Romanian Cuisine</h2>
-              <h3 class="section-description">Explore the Culinary Delights of Romania's Heritage</h3>
+          <!-- Top attraction images -->
+          <div class="attractions-content">
+            <div class="attractions-card">
+              <p>Romanian Athenaeum</p>
+              <figure>
+                <img
+                  src="assets/images/attractions/ateneul-roman.webp"
+                  alt="Ateneul Roman"
+                />
+                <figcaption>Credits: tripadvisor.com</figcaption>
+              </figure>
             </div>
 
-            <div class="cuisine-content">
-              <img src="assets/images/cuisine/ciorba-de-burta.webp" alt="Ciorbă de burtă (Tripe Soup)">
-              <img src="assets/images/cuisine/cozonac.webp" alt="Cozonac (Sweet Bread)">
-              <img src="assets/images/cuisine/drop-de-miel.webp" alt="Drob de miel (Lamb Stew)">
-              <img src="assets/images/cuisine/jumari.webp" alt="Jumări (Pork Cracklings)">
-              <img src="assets/images/cuisine/mamaliga.webp" alt="Mămăligă (or Cornmeal Mush)">
-              <img src="assets/images/cuisine/mici.webp" alt="Mici (Romanian Grilled Sausages)">
-              <img src="assets/images/cuisine/pomana-porcului.webp" alt="Pomana Porcului (Pig's Feast)">
-              <img src="assets/images/cuisine/salata-de-beauf.webp" alt="Salată de beuf (Beef Salad)">
-              <img src="assets/images/cuisine/sarmale.webp" alt="Sarmale (Cabage Rolls)">
-              <img src="assets/images/cuisine/papanasi.webp" alt="Papanași (Fried Doughnuts)">
+            <div class="attractions-card">
+              <p>Bran Castle (Dracula's Castle)</p>
+              <figure>
+                <img
+                  src="assets/images/attractions/bran-castle-dracula-castle.webp"
+                  alt="Bran Castle (Dracula's Castle)"
+                />
+                <figcaption>Credits: tripadvisor.com</figcaption>
+              </figure>
             </div>
-          </div>
-        </section>
-        <!-- End Cuisine Section -->
 
-        <!-- Start Contact Section -->
-        <section id="contact">
-          <div class="container">
-            <div class="section-head">
-              <h2 class="section-title">Contact Us</h2>
-              <h3 class="section-description">Reach Out and Connect with Explore Romania</h3>
+            <div class="attractions-card">
+              <p>Herastrau Park</p>
+              <figure>
+                <img
+                  src="assets/images/attractions/herastrau-park.webp"
+                  alt="Herastrau Park"
+                />
+                <figcaption>Credits: tripadvisor.com</figcaption>
+              </figure>
             </div>
-            <div class="contact-content">
-              <form action="thank-you.html" method="get" id="contact-form">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Enter your name" required>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email" required>
-                <label for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                <button type="submit" id="submit" name="submit" value="submit">Send message</button>
-              </form>
+
+            <div class="attractions-card">
+              <p>The National Village Museum</p>
+              <figure>
+                <img
+                  src="assets/images/attractions/house-from-alunis-prahova.webp"
+                  alt="The National Village Museum"
+                />
+                <figcaption>Credits: tripadvisor.com</figcaption>
+              </figure>
+            </div>
+
+            <div class="attractions-card">
+              <p>Stavropoleos Monastery</p>
+              <figure>
+                <img
+                  src="assets/images/attractions/manastirea-stavropoleos.webp"
+                  alt="Stavropoleos Monastery"
+                />
+                <figcaption>Credits: tripadvisor.com</figcaption>
+              </figure>
+            </div>
+
+            <div class="attractions-card">
+              <p>Palace of Parliament</p>
+              <figure>
+                <img
+                  src="assets/images/attractions/palace-of-parliament.webp"
+                  alt="Palace of Parliament"
+                />
+                <figcaption>Credits: tripadvisor.com</figcaption>
+              </figure>
+            </div>
+
+            <div class="attractions-card">
+              <p>Peles Castle</p>
+              <figure>
+                <img
+                  src="assets/images/attractions/peles-castle.webp"
+                  alt="Peles Castle"
+                />
+                <figcaption>Credits: tripadvisor.com</figcaption>
+              </figure>
+            </div>
+
+            <div class="attractions-card">
+              <p>Transfagarasan Highway</p>
+              <figure>
+                <img
+                  src="assets/images/attractions/transfagarasan-highway.webp"
+                  alt="Transfagarasan Highway"
+                />
+                <figcaption>Credits: tripadvisor.com</figcaption>
+              </figure>
             </div>
           </div>
-        </section>
-        <!-- End Contact Section -->
+        </div>
+      </section>
+      <!-- End Attractions Section -->
+
+      <!-- Start Cuisine Section -->
+      <section id="cuisine">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Romanian Cuisine</h2>
+            <h3 class="section-description">
+              Explore the Culinary Delights of Romania's Heritage
+            </h3>
+          </div>
+
+          <div class="cuisine-content">
+            <img
+              src="assets/images/cuisine/ciorba-de-burta.webp"
+              alt="Ciorbă de burtă (Tripe Soup)"
+            />
+            <img
+              src="assets/images/cuisine/cozonac.webp"
+              alt="Cozonac (Sweet Bread)"
+            />
+            <img
+              src="assets/images/cuisine/drop-de-miel.webp"
+              alt="Drob de miel (Lamb Stew)"
+            />
+            <img
+              src="assets/images/cuisine/jumari.webp"
+              alt="Jumări (Pork Cracklings)"
+            />
+            <img
+              src="assets/images/cuisine/mamaliga.webp"
+              alt="Mămăligă (or Cornmeal Mush)"
+            />
+            <img
+              src="assets/images/cuisine/mici.webp"
+              alt="Mici (Romanian Grilled Sausages)"
+            />
+            <img
+              src="assets/images/cuisine/pomana-porcului.webp"
+              alt="Pomana Porcului (Pig's Feast)"
+            />
+            <img
+              src="assets/images/cuisine/salata-de-beauf.webp"
+              alt="Salată de beuf (Beef Salad)"
+            />
+            <img
+              src="assets/images/cuisine/sarmale.webp"
+              alt="Sarmale (Cabage Rolls)"
+            />
+            <img
+              src="assets/images/cuisine/papanasi.webp"
+              alt="Papanași (Fried Doughnuts)"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- End Cuisine Section -->
+
+      <!-- Start Contact Section -->
+      <section id="contact">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Contact Us</h2>
+            <h3 class="section-description">
+              Reach Out and Connect with Explore Romania
+            </h3>
+          </div>
+          <div class="contact-content">
+            <form action="thank-you.html" method="get" id="contact-form">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+                required
+              />
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+              <button type="submit" id="submit" name="submit" value="submit">
+                Send message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
     </main>
     <!-- End Main -->
 
@@ -330,22 +467,42 @@
       <div class="container" id="footer-container">
         <ul id="social-networks">
           <li>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"
+            >
               <i class="fa-brands fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"
+            >
               <i class="fa-brands fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)">
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Youtube page (opens in a new tab)"
+            >
               <i class="fa-brands fa-youtube"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"
+            >
               <i class="fa-brands fa-instagram"></i>
             </a>
           </li>
@@ -355,5 +512,5 @@
     </footer>
     <!-- End Footer -->
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
