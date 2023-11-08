@@ -431,7 +431,7 @@ After writing the code, committing, and pushing it to GitHub, the project was de
 
 + In the side navigation, select **Pages**
 
-+ In the 'None' dropdown, choose **main**
++ In the **None** dropdown, choose **main**
 
 + Click the **Save** button.
 
