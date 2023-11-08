@@ -336,6 +336,7 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
 ## Languages
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript "Javascript")
 
 ## Libraries & Frameworks
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
@@ -437,6 +438,10 @@ After the refactor some of the design changed. See details below.
 
 ![Refactor images padding](wireframes/cuisine-img-padding-refactor.jpg)
 
++ To make the user experience and provide visual cues for the currently viewed section, I've incorporated a hover effect in the menu using scrollspy (Javascript). This idea was inspired by a video I watched on YouTube.
+
+![Refactor images padding](wireframes/scroolspy.jpg)
+
 [Back to Top](#table-of-contents)
 
 # Credits
@@ -447,6 +452,9 @@ For readme, help and advice,
 
 For navigation and footer: 
 * [Love Running Project](https://codeinstitute.net "Love Running Project")
+
+For scroolspy 
++ [Mr. Web Designer](https://www.youtube.com/watch?v=fAAk9CATILc "Mr. Web Designer")
 
 For images and content inspiration: 
 * [Chefspencil](https://www.chefspencil.com/top-10-romanian-foods/ "chefspencil.com")

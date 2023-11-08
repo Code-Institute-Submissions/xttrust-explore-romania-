@@ -202,6 +202,11 @@ footer {
     color: var(--color-light);
 }
 
+.active {
+    background-color: var(--color-blue);
+    color: var(--color-light);
+}
+
 /* Navbar styles with dropdown toggle */
 #nav-toggle:checked~nav {
     display: block;
