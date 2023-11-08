@@ -380,6 +380,23 @@ The navigation bar is fully responsive. Since the navbar is fixed to the top it 
  ```
  <meta name="theme-color" content="#121A18">
  ```
+
+ + Using Mobile Simulator extension in Google Chrome I have tested the website on differite devices. Test results are listed below.
+
+ | Device                |     Test 1     |      Test 2 | Result Test 1 | Result Test 2 |
+|-----------------------|:--------------:|------------:|---------------|---------------|
+| Samsung Galaxy S20    | Responsiveness | Menu Button | Passed        | Passed        |
+| Samsung Galaxy S21 FE | Responsiveness | Menu Button | Passed        | Passed        |
+| iPad Air 4            | Responsiveness | Menu Button | Passed        | Passed        |
+| Galaxy Tab S7         | Responsiveness | Menu Button | Passed        | Passed        |
+| iPhone 5              | Responsiveness | Menu Button | Passed        | Passed        |
+| iPhone X              | Responsiveness | Menu Button | Passed        | Passed        |
+| iPhone 11             | Responsiveness | Menu Button | Passed        | Passed        |
+| iPhone 12 Mini        | Responsiveness | Menu Button | Passed        | Passed        |
+| iPhone 13 PRO         | Responsiveness | Menu Button | Passed        | Passed        |
+| Mackbook Air          | Responsiveness | Menu Button | Passed        | Passed        |
+| Desktop               | Responsiveness | Menu Button | Passed        | Passed        |
+| Dell Latitude         | Responsiveness | Menu Button | Passed        | Passed        |
  
  ## Bugs
 
