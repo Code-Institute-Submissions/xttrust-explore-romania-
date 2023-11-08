@@ -163,21 +163,20 @@ The wireframes are below:
 The navigation bar is fully responsive. Since the navbar is fixed to the top it provides to user a way to navigate the website very easy, making it a user-friendly
 
 - Desktop (>=992px)
-  \
-  &nbsp;
-  ![Navigation bar](wireframes/navbar-992.png)
 
-      -   A blue hover effect is used to visually highlight active, clicked, and hovered links, making it clear to users when they are interacting with these elements.
+![Navigation bar](wireframes/navbar-992.png)
 
-      ![Navigation bar on hover](wireframes/navbar-hover-992.png)
+- A blue hover effect is used to visually highlight active, clicked, and hovered links, making it clear to users when they are interacting with these elements.
+
+![Navigation bar on hover](wireframes/navbar-hover-992.png)
 
 - Small devices (<576px)
 
-  - When the screen width is less than or equal to 576 pixels, the navigation bar adopts a hamburger-style menu, maintaining responsiveness across all devices.
+- When the screen width is less than or equal to 576 pixels, the navigation bar adopts a hamburger-style menu, maintaining responsiveness across all devices.
 
 ![Nav bar on small devices](wireframes/navbar-mobile-close.png)
 
-    - When pressed, it opens the main menu with all available links.
+- When pressed, it opens the main menu with all available links.
 
 ![Nav bar on small devices expanded](wireframes/navbar-mobile-hover.png)
 
